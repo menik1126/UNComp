@@ -1,0 +1,14 @@
+Using method:  uncomp
+Using method:  uncomp
+promt ===== Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+{query}
+
+### Response: Let's think step by step.
+lenght ==== 1319
+max_capacity_prompts [58, 116]
+max_capacity_prompts [37, 74]
+max_capacity_prompts [53, 106]
+max_capacity_prompts [40, 81]
+max_capacity_prompts [91, 182]

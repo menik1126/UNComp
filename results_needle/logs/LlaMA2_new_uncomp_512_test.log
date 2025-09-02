@@ -1,0 +1,135 @@
+args.model_path is meta-llama/Llama-2-7b-chat-hf
+[30 24 23 27  0 21 19 13 11 10  9  7  6  4  2 31]
+[25 26 18 17 16  1 14 12 20 15  5 28  3 29  8 22]
+[10 24 29 27  0 20 19 18 16  1 13  9  7  6  4 15]
+[11 22 23 17 25 14 26 12 21 31  3  5 28  2  8 30]
+[14 31 18 19 20 17 13 12 24  9  6  5  4  3  2  0]
+[22 21 30 29 28 27  1  7 15 25 10 11 23 16 26  8]
+[19  8 26 24 28  0 21 18 16 13 12 10  6  4  2 31]
+[ 9 27 23 17  1 14 11 22  7  5 30  3 29 20 25 15]
+[ 0 20  6 11  3  4 30  8 16  9 17 13  1 19 18 12]
+[21 31  2 29 28  5 27  7 26 25 10 24 23 22 14 15]
+[ 6  9 27 14 28 25 29 26 23  7 16  8 21 13 17 15]
+[ 1  0  2  3  4  5 30 24 22 20 10 11 12 18 31 19]
+[ 7 26 20 28 15 25  0 18 17  1 14 12 11  9  5 31]
+[29 10 19 23 24 16 27 22 30  8  2  3  6  4 21 13]
+[14 30 28 27 29 15 22 26  0 24 19 16 13 12  4 31]
+[ 8 11 21 18 17 10 25  7  9  1  5  2 20  3 23  6]
+[10  4 25 24 27  0 22 21 19 18 14  8  6  5  3 31]
+[ 9 20 16 26 13 12 11 15 23  2 30 28 29 17  7  1]
+[ 6  7  8  4 20  3 30 26 25 13 23 10 17 11  1 31]
+[14 15  2 29 28  5 27 24 22  9 19 16  0 12 21 18]
+[ 7 26 11 14 10  4 29  1 24 12 21 20 19 18 13  0]
+[16 15  2  3 30  5  6 28  8  9 27 25 22 17 31 23]
+[14 26  8 10 12  3 30 29 21  4 20  6  7 17 16 31]
+[11 15 27 25 24 23 19 18  1 13  0  5  2  9 22 28]
+[12 11 26 15  6 18 22 16 24 25  7 14 28  3 10 19]
+[ 1 31 30 29 27 23 20  0  2 13 21  5  4  8 17  9]
+[ 0 14 12 11 20  6  5 23 24 25  4  3 28  2 30 31]
+[16 15 29 27 26 22 21  7  8  9 10 19 18 13 17  1]
+[13 16  9 27 19 15 29  6  0 25 22 21  4  3  2 31]
+[ 8 11 20 18  1 23 28 14  5 26 10 30 12 17 24  7]
+[28 14 20  1 10 21  5  4 24 25 26 19 18 29 30 12]
+[ 9 15 23 22 16 13 11 31  8 17  7  6  2  3  0 27]
+[22 31 18 17 20 21  1 14 24 25  9 27  8  2 30  0]
+[15 16 23 12 11 10 19 13  4 26  5  6 28  7 29  3]
+[22 11  4 18  8 21  1 29 16 30 14 27 13  5  7 31]
+[12 15 28 26 25 23 20 19 17  0 24  6  3 10  2  9]
+[22 17 16 14 26 29  3  0 24 23 13 10  9  5  2 31]
+[28 11 21  1 12 15 27 25 18  8  6 30  4 20 19  7]
+[ 1  6 14  9 18  2 24 19 23 25 12 20  5 29 30 22]
+[ 8 15 27 26 17 16  0  4 31 28 10 11  3  7 21 13]
+[ 3 30 28 19 10  2 12 26 14  6 24 16  8  9 13 23]
+[ 1 31 29 27  4  5 25  7 22 21 20 11 18 17  0 15]
+[ 7 14  8 29 28 18 30  2 25 11  6 23 20 19 17 15]
+[12  0 27  3  4  5 24 22 13  9 31  1 10 26 16 21]
+[31  1 29 25 30 28  0 18 14 13 12 10  5  3  2 15]
+[ 9 27 19 23 17 26 11 22  7 21  4 24 20 16  6  8]
+[15 24  9 27 29  2 30  3 14 25 23  1 21  6 13 22]
+[16 31 28 26  4 20 18  7  8 17 10 11 12  0  5 19]
+[ 5  1 30 12 25 27  0 22 21 20 19 13  9  7  2 31]
+[28 10 18 17 16 15 23  8 24  6  3 11  4 14 26 29]
+[31  8 18 19  1  6 14 13 24 25 26 12  2 29 30 10]
+[11 15 28 27 23 22 21 17 16  0  7 20  3  4  5  9]
+[17 12 20 22 15 30 23  0 19  1 11  8  7  5  2 31]
+[26  9 16 25 13 10 24  3 28  6 29 21 27  4 14 18]
+[ 5 21 29 31 19  1 22 23 13 11 26  8 28  7 30  0]
+[24 18  2  3  4 16  6 14 27 15 10 25 12 20 17  9]
+[21 30 18  0  2 26 29  3 12  4 24 16 22  8 19  5]
+[14 15 28 27 25 23  6  7 20  9 10 17  1 13 31 11]
+[20 15 17 14 11  7 22 23 24 25  4 27  3 29 30 31]
+[ 0 16 19 13 12 10  9 18 28 26  2 21  6  1  5  8]
+[18 12 15  0 16 21  1 11  9  8  5  3 28 29 30 31]
+[22 19  2 27  4 26  6  7 25 17 10 23 20 13 14 24]
+[20 27 25 26 23 10  5  9 19 18 17  1  7  8 12 15]
+[11 31 29 24 22 21 16 14 13  0  4  2  3  6 28 30]
+/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/huggingface_hub/file_download.py:795: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+loading from meta-llama/Llama-2-7b-chat-hf
+Using method:  uncomp
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.59s/it]
+
+
+Starting Needle In A Haystack Testing...
+- Model: meta-llama/Llama-2-7b-chat-hf
+- Context Lengths: 11, Min: 3000, Max: 4000
+- Document Depths: 10, Min: 0%, Max: 100%
+- Needle: The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.
+
+
+
+Searching existing results at results_needle/results/LlaMA2_new_uncomp_512_test
+result does not exist, testing
+insertion at 0
+/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/avnet/mount_disk/sjh/UNComp/run_needle_in_haystack.py", line 630, in <module>
+    ht.start_test(args)
+  File "/home/avnet/mount_disk/sjh/UNComp/run_needle_in_haystack.py", line 510, in start_test
+    self.run_test(args)
+  File "/home/avnet/mount_disk/sjh/UNComp/run_needle_in_haystack.py", line 238, in run_test
+    task = self.bound_evaluate_and_log(context_length, depth_percent)
+  File "/home/avnet/mount_disk/sjh/UNComp/run_needle_in_haystack.py", line 229, in bound_evaluate_and_log
+    self.evaluate_and_log(*args)
+  File "/home/avnet/mount_disk/sjh/UNComp/run_needle_in_haystack.py", line 289, in evaluate_and_log
+    output_ids = self.model_to_test.generate(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/transformers/generation/utils.py", line 1527, in generate
+    result = self._greedy_search(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/transformers/generation/utils.py", line 2411, in _greedy_search
+    outputs = self(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1196, in forward
+    outputs = self.model(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1016, in forward
+    layer_outputs = decoder_layer(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/avnet/mount_disk/sjh/UNComp/uncomp/llama_model.py", line 71, in LlamaDecoderLayer_forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/avnet/miniconda3/envs/uncomp/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/avnet/mount_disk/sjh/UNComp/uncomp/llama_model.py", line 958, in llama_attn_forward_Uncomp
+    key_states_compress, value_states_compress = self.kv_cluster.update_kv(key_states, query_states, value_states, attn_weights[:,:,-self.kv_cluster.window_size:,:],attn_weights)
+  File "/home/avnet/mount_disk/sjh/UNComp/uncomp/uncomp_utils.py", line 318, in update_kv
+    indices_1 = torch.cat([indices1[:,self.head_indices1[-num_heads:],:],recent_indices],dim=-1)
+IndexError: The shape of the mask [16] at index 0 does not match the shape of the indexed tensor [1, 32, 760] at index 1

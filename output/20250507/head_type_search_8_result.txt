@@ -1,0 +1,6 @@
+Using method:  head_type_search_8
+Using method:  head_type_search_8
+manager.sample_time 1
+manager.sample_time 2
+manager.sample_time 3
+manager.sample_time 4

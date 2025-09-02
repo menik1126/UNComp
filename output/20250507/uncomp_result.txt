@@ -1,0 +1,565 @@
+Using method:  uncomp
+Using method:  uncomp
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6797 GB, allocated=12.6678 GB
+
+batch_outputs is  ['He is living with the Mulvilles.', 'She does not.']
+Max used: 50091.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6671 GB
+
+batch_outputs is  ["On Atlas' mountain.", 'Crito visited Socrates to propose an escape plan.']
+Max used: 59401.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Because he was a robber baron and wanted to keep Otto alive to pay for his crimes.', 'Thirteen years.']
+Max used: 59401.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Death.', 'Dana Barrett']
+Max used: 59489.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6678 GB
+
+batch_outputs is  ['American', 'The priests.']
+Max used: 59583.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Because he has shown the effectiveness of barrage tactics in the recent raid on the Hans.', 'He describes a world where he will be forgotten and where his name will be remembered only as a footnote in the history of Oxford.']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ['Twenty days.', 'The Vervelle couple believe Grassou is the perfect match for themselves.']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Pierre Grassou', 'Slimer GRABS the doorknob.']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Elder Childers argues that Methodist ministers are envious of the power of the Baptist preachers.', 'Because he has shown the effectiveness of barrage tactics in the recent raid on the Hans.']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['A woman dressed in black.', '3']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ["He had used the devil's-foot root on them.", '2419 A.D.']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6689 GB
+
+batch_outputs is  ['To avoid getting in trouble with Sam and his gang.', 'Socrates compares going against the law to doing something "like a miserable slave."']
+Max used: 61213.47 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Patroness', 'She is a teacher.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6691 GB
+
+batch_outputs is  ['He believes it would be wrong to disobey the agreements and laws of Athens, even if they are unjust.', 'Alabama shoots him three times in the belly and walks away.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['She burnt it.', 'Their faces were contorted in a grotesque grimace.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Soames gets upset with Beerbohm because Beerbohm nodded at him when he was trying to avoid him.', '7']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Skat, the lyre player.', "She read her Week's Preparation."]
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6681 GB
+
+batch_outputs is  ['Women and children.', 'Because he had broken the law and was afraid of being caught.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6689 GB
+
+batch_outputs is  ['Bill sobs with pain as Sam, a busy collector, drops a roof on him. ', 'To investigate a strange case involving a series of events that have occurred in the area, including the disappearance of a man and the discovery of a mysterious footprint.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Slimer.', 'Mary is educated by her mother, who is described as having "a weak, sickly frame, and a mind little calculated to impart knowledge." (p. 1)']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Ext. 79th Street - Day', 'Ryujis father.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Athens.', 'She died one week after watching a rumored cursed video.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6673 GB
+
+batch_outputs is  ['Because Lazurus was accused of murdering his wife.', 'Dim.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Baron Henry of Roderburg.', 'Mary is educated by her mother, who is described as having "a weak, sickly frame, and a mind little calculated to impart knowledge." (p. 1)']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['Baptist', 'The Germans.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['\nWisdom, Cruelty, Goodness, Honour, Loyalty, Mercy, Power, Poverty, Robbery, Slavery, Strength, Suffering, Vengeance, War, Wickedness, Wonders.', 'She dies.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Their faces were contorted in a grotesque grimace.', 'The Sins.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6689 GB
+
+batch_outputs is  ['Ursula', "They don't do anything."]
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6681 GB
+
+batch_outputs is  ['Writes articles for newspapers.', 'Falder']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6687 GB
+
+batch_outputs is  ['None.', 'A check.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6671 GB
+
+batch_outputs is  ['She creates a lovely lady-witch.', 'In the garden.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['Michael', 'Methodist.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['Dr. Sterndale.', 'Jerry']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['Doctor.', 'He wants her to marry Saltram.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Paris.', '7']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Marie.', 'She makes a copy of the video and shows it to someone else.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Death is disguised as a game of chess.', 'A citizen willingly lives in Athens.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6681 GB
+
+batch_outputs is  ["He jumps neck's broken.", ' Reiko discovers that making a copy of the tape and showing it to someone else within a week can save their lives.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ['Brenda', 'They both stayed in the room for 20 days.']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Reading novels.', 'Lawyer']
+Max used: 62145.49 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Radioactive gases.', 'Iwata.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6691 GB
+
+batch_outputs is  ['The "Sonny Chiba triple feature" and a "Donny Chiba triple feature".', 'Twenty-five years.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ['The gravel from the window.', 'A subordinate.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6687 GB
+
+batch_outputs is  ['James How', 'Dana Barrett']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['He is unhappy about nodding and smiling at the devil.', 'Eliza']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Sins.', 'Bar.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Daughter', 'Socrates believes that if he breaks agreements and returns evil for evil, he will be received as an enemy by the brethren of the laws in the world below.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ['If he went to Duvivier.', 'Doctor Nordenfeld']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6738 GB, allocated=12.6672 GB
+
+batch_outputs is  ['"Forty thousand francs! He is a fine artist!"', 'His inability to gain recognition from the Academy.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Tony Scott\n\n', 'To take him back to prison.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Ruth Honey.', 'Nowhere.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Eliza requests Mary to raise her two children.', 'Death asks Antonius to hold off his death as long as he can by playing chess.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6678 GB
+
+batch_outputs is  ['Doctor Nordenfeld.', 'Mary is taught to struggle with resignation.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Death is disguised as a game of chess.', 'She did not marry Charles.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['Mortimer blames Dr. Sterndale for the death of his sister.', 'During the Vietnam War.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['American', "The Sinsing Gang's airship."]
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ["When she finds a copy of the cursed tape in Ryuji's bag.", 'Ruth Anvoy']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['They go to the store.', 'The setting of the story is the Middle Ages, specifically the time between the dark ages and the modern era, in a place called Drachenhausen.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6681 GB
+
+batch_outputs is  ['He dies.', " The managing clerk's office."]
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6678 GB
+
+batch_outputs is  ['He is living with the Mulvilles.', 'In the garden.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Because artists laugh at his work.', 'The rumor of a curse.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['She was a killer.', 'FRANK']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ["Jacob's flesh.", 'The agreements with the Laws of Athens.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['"Forty thousand francs! He is a fine artist!"', 'Willie']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['Jim was sentenced to "a good lickin\'" by the court.', 'Eliza favors Mary over the other child.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Otto is known for his pure, simple wisdom, and his right hand is of pure silver.', 'Mary']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Wyoming Valley.', "Nupton thought Soames was a figment of Beerbohm's imagination."]
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ["He had used the devil's-foot root on them.", 'Altaira.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ["Pierre Grassou's daughter.", 'He discovered that she had written a letter to a man.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  [' She finds the hidden message "Make a copy of the tape and show it to someone else inside a week, or you will die."', 'A ruined and mysterious house in the provinces.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['Gravener sent Anvoy the letter.', 'The character from New York is named William Platt.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6689 GB
+
+batch_outputs is  ['Blackie.', 'Masami and Tomoko']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['The Second War of Independence.', "Grassou discovers that his paintings are hanging in Vervelle's home, and that he has been paid a large sum of money for them."]
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['The upward climb of the CEILING.', 'The analogy of person and the laws.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['A coffin.', '2419 A.D.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Otto meets the Emperor Rudolph and promises to take Pauline as his wife.', 'Alabama walks away from the Mustang forever. ']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['Mule-Bone.', 'M. de Merret']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['Produce the desired effect on Saltram.', 'He would be told.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6672 GB
+
+batch_outputs is  ['Apis.', 'Two.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6691 GB
+
+batch_outputs is  ['Alabama', 'Blackie does.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6687 GB
+
+batch_outputs is  ['Pierre Grassou paints the forgeries for the Verriers.', 'Auld Lang Syne']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6678 GB
+
+batch_outputs is  ['He believes artists laugh at his work, that his name is a term of contempt in the studios, and that the feuilletons ignore his pictures.', 'Henry.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.6687 GB
+
+batch_outputs is  ['A ruined and mysterious house in the provinces.', '"Auld Lang Syne."']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['La Grande Breteche.', 'Because they were jealous of each other.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ['MICHAEL', 'Because she was so frightened by the appearance of the little boy.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6672 GB
+
+batch_outputs is  ['They received strange panacea in a crystal bowl.', 'Paris.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6689 GB
+
+batch_outputs is  ['To plunder and destroy.', 'Bill sobs with pain as Sam, a busy collector, drops a roof on him. ']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['The Methodists.', 'It glanced Soames, Enoch.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6689 GB
+
+batch_outputs is  ['Abby', 'The mayor wants to have the Ghostbusters do a job.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6693 GB
+
+batch_outputs is  ["The future article's phonetic spelling of the 'f' sound is unique. ", 'It peels away the flesh.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.67 GB
+
+batch_outputs is  ['Rousseau.', 'Killed by a bullet in the BAR.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6934 GB, allocated=12.6693 GB
+
+batch_outputs is  ["Jacob's unit was in a bay of soldiers, and they were all crazy.", '"Madame asked the mason to leave a crack in the wall."']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ["On Atlas' mountain.", 'In the Melchior House.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6674 GB
+
+batch_outputs is  ['A subordinate.', 'He focuses on his general impressions of Paris and his experiences, as well as his opinions on the people he meets and the places he visits.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6953 GB, allocated=12.6689 GB
+
+batch_outputs is  ['She saw the beauty of the soul.', 'At the mill.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6681 GB
+
+batch_outputs is  ['The American.', 'Two']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['The gravel from the window.', 'He dies.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6676 GB
+
+batch_outputs is  ['Mule-Bone.', 'Mortimer Tregarthen']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6777 GB, allocated=12.668 GB
+
+batch_outputs is  ['Gravel.', 'American Radioactive Gas Corporation.']
+Max used: 62151.52 MB, Min used: 50091.47 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.668 GB
+
+batch_outputs is  ['Skat, the lyre player.', "When she finds a copy of the cursed tape in Ryuji's bag."]
+Max used: 62151.52 MB, Min used: 50091.47 MB
+sum(sum_gathered) 0
+mean compress 0.0
+all sec/token: 0.1470669727021535, time 1006.0851602554321, total tokens 6841, total prompts 200
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6669 GB
+
+batch_outputs is  ['Unanswerable. The article does not provide information on how the ground truth for fake news is established.', 'GhostVLAD approach is a pooling method proposed for language identification task, which was originally proposed for face recognition by [10].']
+Max used: 61233.53 MB, Min used: 61233.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6738 GB, allocated=12.6669 GB
+
+batch_outputs is  ['68.8% to 71.8%', 'Unanswerable.']
+Max used: 61233.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.667 GB
+
+batch_outputs is  ['Unanswerable', 'Unanswerable. The article does not provide information about the language of the data in the hashtag and SemEval datasets.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.667 GB
+
+batch_outputs is  ['unanswerable', 'CNN/DailyMail, NYT, XSum.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6738 GB, allocated=12.6669 GB
+
+batch_outputs is  ['The proposed approach outperforms other WSD approaches employing word embeddings on various benchmark datasets, as shown in the article.', 'Unanswerable']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6669 GB
+
+batch_outputs is  ['Unanswerable. The article does not provide information on the sources of the datasets used for the challenge.', 'unanswerable']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.667 GB
+
+batch_outputs is  ['IMDb dataset of movie reviews.', 'The proposed system achieves an F1-score of 95.6% on the test set.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6674 GB
+
+batch_outputs is  ['Yes.', 'Unanswerable. The article does not provide information on the datasets used.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6673 GB
+
+batch_outputs is  ['unanswerable', 'unanswerable. The article does not mention any specific NMT models that were compared with.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.667 GB
+
+batch_outputs is  ['Incorporating neutral features, maximum entropy, and KL divergence.', 'Unanswerable.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.667 GB
+
+batch_outputs is  ['unanswerable', 'Unanswerable.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
+max_capacity_prompts [384, 768]
+Memory freed:        reserved=12.6758 GB, allocated=12.6669 GB
+
+batch_outputs is  ['unanswerable', 'Unanswerable. The article does not provide information on the evaluation metrics used.']
+Max used: 61317.53 MB, Min used: 58129.53 MB
