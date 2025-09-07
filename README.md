@@ -178,7 +178,10 @@ UNComp/
 
 ## 📊 Results
 
-ParallelComp achieves significant improvements in long-context tasks:
+UNComp achieves significant improvements in long-context tasks:
+- Preduces the KV cache size to 4.74% of the original.
+- Achieves a 6% prefill speedup.
+- Improves throughput by 6.4×.
 
 ## 🤝 Contributing
 
@@ -195,7 +198,7 @@ If you find this work useful, please cite our paper:
 ```bibtex
 @article{xiong2025parallelcomp,
   title={ParallelComp: Parallel Long-Context Compressor for Length Extrapolation},
-  author={Xiong, Jing and Shen, Jianghan and Zheng, Chuanyang and Wan, Zhongwei and Zhao, Chenyang and Yang, Chiwun and Ye, Fanghua and Yang, Hongxia and Kong, Lingpeng and Wong, Ngai},
+  author={Xiong, Jing and Shen, Jianghan and Ye, Fanghua, and Tao, Chaofan and Wan, Zhongwei and Lu, Jianqiao and Zheng, Chuanyang, and Guo, Zhijiang and Yang, Min and Kong, Lingpeng and Wong Ngai},
   journal={arXiv preprint arXiv:2502.14317},
   year={2025}
 }
