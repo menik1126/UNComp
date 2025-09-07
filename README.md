@@ -11,7 +11,7 @@ This repository contains the official implementation of **UNCOMP**, an uncertain
 Compressor Design from an Uncertainty-Aware Perspective**  
 *Jing Xiong, Jianghan Shen, Fanghua Ye, Chaofan Tao, Zhongwei Wan, Jianqiao Lu, Xun Wu, Chuanyang Zheng, Zhijiang Guo, Min Yang, Lingpeng Kong, Ngai Wong*
 
-📖 [Paper Link](https://arxiv.org/abs/2502.14317)
+📖 [Paper Link](https://arxiv.org/abs/2410.03090)
 
 ## 🚀 Key Features
 - **Uncertainty-Aware Compression**: Uses truncated matrix entropy to detect low-information regions
@@ -26,7 +26,7 @@ Compressor Design from an Uncertainty-Aware Perspective**
 ### Requirements
 
 - Python 3.9+
-- PyTorch 2.0.1
+- PyTorch 2.6.0
 - CUDA compatible GPU(s)
 
 ### Prerequisites & Dependencies
@@ -76,7 +76,6 @@ sh ./scripts/scripts_longBench/eval.sh \
 
 - **LLaMA** family models  
 - **mistral** models
-- **Qwen2** models
 
 ### Supported Datasets
 
@@ -144,13 +143,12 @@ sh ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_I
 
 ## 🚧 TODO & Roadmap
 - [❎] **Code Organization**: Currently organizing and cleaning up the codebase for better usability
-- [❎] **Gemma Support**: Adding full support for Gemma model family
+- [❎] **Qwen Support**: Adding full support for Qwen model family
 - [❎] **Baselines**: Adding full support for Evaluation of Baselines
 - [❎] **SGLang Integration**: Adding support for SGLang inference engine for improved performance
 - [❎] **Documentation**: Expanding documentation with more detailed examples
 - [❎] **Quantization Support**: Adding support for model quantization (INT8/INT4) to reduce memory usage and accelerate inference
 - [❎] **Benchmarks**: Adding more comprehensive benchmark results
-- [✅] **FlashAttention Support**
 - [✅] **Multi-GPU Inference Support**
 - [✅] **Batch Inference Support**
 - [✅] **AMD GPU Support**
@@ -158,7 +156,7 @@ sh ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_I
 ## 📁 Project Structure
 
 ```
-ParallelComp/
+UNComp/
 ├── modeling_*.py              # Model implementations with PCW
 ├── run_evaluation*.py         # Evaluation scripts
 ├── experiment_manager*.py     # Experiment management

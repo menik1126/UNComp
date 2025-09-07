@@ -30,12 +30,6 @@ datasets = ["narrativeqa", "qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", 
             "trec", "triviaqa","passage_count", "passage_retrieval_en",  \
             "qmsum","samsum","lcc", "repobench-p","gov_report","multi_news"] 
 
-# datasets = ["narrativeqa", "musique","qmsum",  "trec", "passage_count",  "lcc"] 
-
-# datasets = ["multi_news","gov_report","multi_news"] 
-
-datasets = ["multifieldqa_en"]
-
 dataset2maxlen = {
     "narrativeqa": 128,
     "qasper": 128,
@@ -110,7 +104,7 @@ model2maxlen = {
     "llama3": 7950,
     "llama-3": 7950,
     "mistral": 3950,
-    # "mistral": 12000,
+    "mistral": 12000,
 }
 
 
@@ -158,10 +152,7 @@ def main(args,manager):
             if length > input_max_len: input_max_len = length
             template = model2prompt[args.dataset]
             prompt = template.format(**example)
-            # print("args.model_path.lower()",args.model_path.lower())
             if "llama2" in args.model_path.lower():
-                # print("I am in")
-                # assert 1==0
                 prompt = build_chat(prompt)
             example["prompt"] = prompt
             test_data.append(example)
@@ -197,9 +188,6 @@ def main(args,manager):
         combined_data = combined_data[:1]
         output_max_len = 1
         manager.rope_correlation_dict["dataname"] = args.dataset
-    # elif manager.method_name in manager.rope_position_ids_control:
-    #     if "elongate" in manager.method_name:
-    #         model_max_len = model_max_len//manager.rope_position_ids_control_dict["elongate_ratio"]
     
     manager.max_used = 0
     manager.min_used = torch.iinfo(torch.long).max
@@ -221,7 +209,6 @@ def main(args,manager):
             batch_languages = [item["language"] for item in batch_data]
             batch_all_classess = [item["all_classes"] for item in batch_data]
             batch__ids = [item["_id"] for item in batch_data]
-            # print("batch_prompts[0]",batch_prompts[0])
             tokenized_prompts = tokenizer(batch_prompts, 
                                           padding="longest", 
                                           return_tensors="pt", 
@@ -229,8 +216,6 @@ def main(args,manager):
                                           ).to('cuda')
             
             batch_input_ids = tokenized_prompts.input_ids
-            # torch.set_printoptions(edgeitems=100000, linewidth=200)
-            # print(batch_input_ids)
             attention_mask = tokenized_prompts.attention_mask
             actual_lengths = attention_mask.sum(dim=1)
             max_len = actual_lengths.max().item()
@@ -239,9 +224,6 @@ def main(args,manager):
                 if len(batch_input_ids[0]) > model_max_len:
                     half = int(model_max_len/2)
                     prompt = [tokenizer.decode(batch_input_ids[i][padding_len[i]:padding_len[i]+half], skip_special_tokens=True)+tokenizer.decode(batch_input_ids[i][-half:], skip_special_tokens=True) for i in range(len(batch_input_ids))]
-                    # print(type(prompt))
-                    # print("prompt",prompt[0])
-                    # assert 1==0
                     tokenized_prompts = tokenizer(prompt, padding="longest", return_tensors="pt", add_special_tokens=True).to('cuda')
                     batch_input_ids = tokenized_prompts.input_ids
                     attention_mask = tokenized_prompts.attention_mask
@@ -514,7 +496,6 @@ def calib_main(args,manager):
             for example in result_list["outputs"]:
                 fout.write(json.dumps(example) + "\n")
         print(f"\n\nall sec/token: {timediff / num_tokens*1000} ms, time {timediff}, total tokens {num_tokens}, total prompts {prompts}")
-        # print(f"attn module sec/token: {(prefill_time_gathered + generate_time_gatherd ) / num_tokens}")
         
 @dataclass
 class Manager:
@@ -577,7 +558,6 @@ def get_calib_data(name, tokenizer, model_id, nsamples, seqlen=4096, seed=43):
     for _ in range(nsamples):
         i = random.randint(0, len(tot_text) - seqlen - 1)
         j = i + seqlen * 10
-        # traindataset.append(tot_text[i:j])
         trainenc = tokenizer(tot_text[i:j], padding="longest", return_tensors="pt", add_special_tokens=True).to('cuda')
         inp = trainenc.input_ids[:, :seqlen]
         attention_mask = torch.ones_like(inp)
@@ -605,7 +585,6 @@ class func_utils:
             manager.num_hidden_layers = 32
     
     def last_process(self,manager):
-        # last_process处理
         manager.search=["pearson_correlation_survey_1"]
         manager.last_process.extend(["pearson_correlation_survey_1","pearson_correlation_survey"])
 
@@ -627,161 +606,24 @@ class func_utils:
             return last_number
         
         def get_all_numbers(string):
-            # 使用 re.findall 来匹配所有的整数和小数
             matches = re.findall(r'\d+(?:\.\d+)?', string)
             if matches:
-                numbers = [float(num) for num in matches]  # 将匹配到的数字转换为浮点数列表
+                numbers = [float(num) for num in matches]  
                 print(f"All numbers in the string are: {numbers}")
             else:
                 print("No numbers found in the string.")
             return numbers
         
         def get_last_float_number(string):
-            # 修改正则表达式，匹配整数或小数
             match = re.search(r'(\d+(\.\d+)?)(?!.*\d)', string)
             if match:
-                last_number = float(match.group(1))  # 将结果转换为浮点数
+                last_number = float(match.group(1))  
                 print(f"The last number in the string is: {last_number}")
             else:
                 print("No number found in the string.")
             return last_number
 
-        if "rope" in manager.method_name:
-            manager.rope.append(manager.method_name)
-            logger.info("rope")
-            if "rope_survey" in manager.method_name:
-                manager.rope_survey.append(manager.method_name)
-                manager.rope_survey_dict = {
-                    "hidden_states":[],
-                    "query_states":[],
-                    "key_states":[],
-                    "value_states":[],
-                    "query_states_rope":[],
-                    "key_states_rope":[],
-                }
-                current_working_directory = os.getcwd()
-                if "svd" in manager.method_name:
-                    filename = current_working_directory+"/save_files/rope_svd_files/"
-                else:
-                    filename = current_working_directory+"/save_files/rope_files/"
-                if os.path.exists(filename):    
-                    logger.info(f"Directory {filename} already exists")
-                else:
-                    os.mkdir(filename)
-                    logger.info(f"mkdir {filename}")
-                
-                manager.rope_survey_head_dict = {
-                    "save_path": filename,
-                    "hidden_states":[],
-                    "query_states_head":[],
-                    "key_states_head":[],
-                    "value_states_head":[],
-                    "query_states_head_rope":[],
-                    "key_states_head_rope":[],
-                    
-                    "query_states_svd32_head_rope":[],
-                    "key_states_svd32_head_rope":[],
-                    "query_states_svd16_head_rope":[],
-                    "key_states_svd16_head_rope":[],
-                    "query_states_svd64_head_rope":[],
-                    "key_states_svd64_head_rope":[],
-                    "query_states_svd96_head_rope":[],
-                    "key_states_svd96_head_rope":[],
-                }
-            elif "rope_clip_layer_single_layer" in manager.method_name:
-                manager.rope_clip_layer_single_layer.append(manager.method_name)
-                last_number = get_last_number(manager.method_name)
-                logger.info(f"cut rope in layer {last_number}")
-                manager.rope_clip_layer_single_layer_dict ={
-                    "clip_layer": [last_number],
-                }
-            elif "rope_clip_layer_multi_layer" in manager.method_name:
-                manager.rope_clip_layer_multi_layer.append(manager.method_name)
-                last_number = get_last_number(manager.method_name)
-                group_to_clip = {1:[24,25,26,27,28,29,30,31],2:[16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
-                                 3:[8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],
-                                4:[28,29,30,31],5:[20,21,22,23,24,25,26,27,28,29,30,31],
-                                6:[28,30],7:[10,20,30],8:[20,25,30],9:[20,22,24,26,28,30],
-                }
-                logger.info(f"cut rope in in layer {group_to_clip[last_number]}")
-                manager.rope_clip_layer_multi_layer_dict = {
-                    "clip_layers": group_to_clip[last_number],
-                }
-            elif "rope_correlation" in manager.method_name:
-                logger.info("rope_correlation")
-                manager.rope_correlation.append(manager.method_name)
-                manager.rope_correlation_dict = {
-                    "query_before_rope": [],
-                    "query_after_rope": [],
-                    "key_before_rope": [],
-                    "key_after_rope": [],
-                }
-                logger.info(f"manager.rope_correlation_dict {manager.rope_correlation_dict}")
-            elif "rope_position_ids_control" in manager.method_name:
-                logger.info("rope_position_ids_control")
-                manager.rope_position_ids_control.append(manager.method_name)
-                if "v_dynamic" in manager.method_name:
-                    layer = get_last_number(manager.method_name)
-                    logger.info("rope_position_ids_control_v_dynamic")
-                    interval = 1/layer * 2
-                    manager.rope_position_ids_control_dict = {
-                        "layer":layer,
-                    }
-                    for i in range(layer//2): #倒着看
-                        manager.rope_position_ids_control_dict[manager.num_hidden_layers-i-1] = 1-interval*i
-                    for i in range(layer//2,layer): #后加
-                        logger.info(f"layer//2 {layer//2}")
-                        manager.rope_position_ids_control_dict[manager.num_hidden_layers-i-1] = interval+interval*(i-layer//2)
-                    logger.info(f"rope_position_ids_control_dict {manager.rope_position_ids_control_dict}")        
-                     
-                elif "v_group_dynamic" in manager.method_name:
-                    numbers = get_all_numbers(manager.method_name)
-                    layer = int(numbers[0]) # 后几层
-                    groups_item_num = int(numbers[1]) #每组数量
-                    min_ratio=numbers[2] #最低压缩比率
-                    if len(numbers) != 3:
-                        raise ValueError("min_ratio should be a float number")
-                    groups_amount = layer//groups_item_num
-                    logger.info("rope_position_ids_control_v_dynamic")
-                    
-                    interval = (1-min_ratio)/(groups_amount//2-1)
-                    manager.rope_position_ids_control_dict = {
-                        "layer":layer,
-                    }
-                    for i in range(groups_amount//2):
-                        for j in range(groups_item_num):
-                            manager.rope_position_ids_control_dict[manager.num_hidden_layers-i*groups_item_num-j-1] = 1 - interval*i
-                    for i in range(groups_amount//2,groups_amount):
-                        for j in range(groups_item_num):
-                            manager.rope_position_ids_control_dict[manager.num_hidden_layers-i*groups_item_num-j-1] = min_ratio+interval*(i-groups_amount//2)
-                    for j in range(groups_amount*groups_item_num,layer):
-                        manager.rope_position_ids_control_dict[manager.num_hidden_layers-j-1] = 1
-                    logger.info(f"rope_position_ids_control_dict {manager.rope_position_ids_control_dict}")        
-                    # assert 1==0         
-                elif "dynamic" in manager.method_name:
-                    layer = get_last_number(manager.method_name)
-                    logger.info("rope_position_ids_control_dynamic")
-                    interval = 1/layer
-                    manager.rope_position_ids_control_dict = {
-                        "layer":layer,
-                    }
-                    if "reverse" in manager.method_name:
-                        for i in range(layer):
-                            manager.rope_position_ids_control_dict[manager.num_hidden_layers-i-1] = interval+interval*i
-                        logger.info(f"rope_position_ids_control_dict {manager.rope_position_ids_control_dict}")
-                    else:
-                        for i in range(layer):
-                            manager.rope_position_ids_control_dict[manager.num_hidden_layers-i-1] = 1-interval*i
-                        logger.info(f"rope_position_ids_control_dict {manager.rope_position_ids_control_dict}")
-                else:
-                    ratio = get_last_float_number(manager.method_name)
-                    logger.info(f"rope_position_ids_control_dict {ratio}")
-                    manager.rope_position_ids_control_dict = {
-                        "layer":4,
-                        "elongate_ratio": ratio,
-                        "narrow_ratio": ratio,
-                    }
-            
+           
     def not_update(self,manager):
         manager.not_update = [] 
         if "not_update" in manager.method_name:
@@ -803,13 +645,7 @@ class func_utils:
                          "head_type_search_2_variance"]
         if "calib" in manager.method_name:
             manager.calib.append(manager.method_name)
-
-    def draw_picture_sets(self,manager):
-        manager.draw_picture_set = ["draw_svd_trend","draw_thermodynamic_chart","draw_accumulated_energy","draw_entropy",
-                                "draw_effective_rank"]
-        if any(item in manager.method_name for item in manager.draw_picture_set):
-            manager.draw_picture_set.append(manager.method_name)
-      
+   
     def get_memory_info(self):
         stats = torch.cuda.memory_stats()
         reserved = stats.get("reserved_bytes.all.current", 0)
@@ -839,10 +675,8 @@ class func_utils:
             logger.info("uncomp_stage")
             manager.hidden_delete_stage_and_ours.append(manager.method_name)
             if "group" not in manager.method_name and "stage_only" not in manager.method_name:
-                # assert 1==0
                 manager.ahead_500.append(manager.method_name)
                 manager.ahead_500_equal_code.append(manager.method_name)
-        
         
         if "uncomp" in manager.method_name and "extreme_compressibility" not in manager.method_name \
         and "group" not in manager.method_name and "delete_head" not in manager.method_name \
@@ -851,12 +685,9 @@ class func_utils:
             manager.ahead_500_equal_code.append(manager.method_name)
             manager.ahead_500.append(manager.method_name)
         
-        
-        
         lists_to_extend = [manager.extreme_compressibility_equal_code,
                            manager.delete_head_equal_code,
                            manager.ahead_500_equal_code,
-                        #    manager.pyramidkv_uncomp,
                            ]
         for lst in lists_to_extend:
             manager.head_set.extend(lst)
@@ -1268,15 +1099,13 @@ class func_utils:
                     logger.error("load error")
                     raise ValueError
                 def count_occurrences(arr):
-                    # 修改为32个元素的统计数组，因为现在是统计0-31的出现次数
-                    counts = [[0 for _ in range(32)] for _ in range(32)]  # 32x32的数组
+                    counts = [[0 for _ in range(32)] for _ in range(32)] 
                     for row in arr:
                         for i, value in enumerate(row):
-                            counts[i][value] += 1  # value现在范围是0-31
+                            counts[i][value] += 1  
                     return counts
 
                 def get_top_indices(counts, n, value):
-                    # 函数逻辑保持不变，只是现在value的范围是0-31
                     indexed_counts = list(enumerate(counts))
                     sorted_counts = sorted(indexed_counts, key=lambda x: x[1][value], reverse=True)
                     return [index for index, _ in sorted_counts[:n]]
@@ -1284,16 +1113,15 @@ class func_utils:
                 counts = count_occurrences(data_layers)
                 remaining_indices = list(range(32))
                 results = []
-                selection_counts = [1] * 32  # 修改为32个1，表示每个值选择1个位置
-
-                # 现在遍历0-31
+                selection_counts = [1] * 32  
+                
                 for value in range(32): 
                     n = selection_counts[value]
                     top_indices = get_top_indices([counts[i] for i in remaining_indices], n, value)
                     selected_indices = [remaining_indices[i] for i in top_indices]
                     results.append(selected_indices)
                     
-                    if value < 31:  # 修改为31
+                    if value < 31:  
                         remaining_indices = [i for i in remaining_indices if i not in selected_indices]
 
                 indices = torch.cat([torch.tensor(result).sort()[0] for result in results])
@@ -1345,7 +1173,6 @@ class func_utils:
         self.uncomp_sets(manager)
         self.uncomp_extend(manager)
         self.multi_group_sets(manager)
-        # self.determine_head_type(manager)
 
 if __name__ == "__main__":
 
@@ -1410,7 +1237,7 @@ if __name__ == "__main__":
         device_map={"": accelerator.process_index},
         use_cache=args.use_cache,
         attn_implementation=args.attn_implementation,
-        token="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",
+        token="",
     )
     accelerator.wait_for_everyone()
     tokenizer.padding_side = "left"

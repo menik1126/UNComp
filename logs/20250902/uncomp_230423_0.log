@@ -1,5 +1,0 @@
-2025-09-02 23:04:23,604 - [Process 0/1] - INFO - args.seed is 43
-2025-09-02 23:04:24,221 - [Process 0/1] - INFO - model_path is meta-llama/llama-2-7b-chat-hf 
-2025-09-02 23:04:24,221 - [Process 0/1] - INFO - uncomp
-2025-09-02 23:04:30,982 - [Process 0/1] - INFO - args.model_path is meta-llama/Llama-2-7b-chat-hf
-2025-09-02 23:04:31,046 - [Process 0/1] - INFO - Working on max_capacity_prompts 512 dataset gsm8k - 0/1
