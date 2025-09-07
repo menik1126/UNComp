@@ -157,16 +157,22 @@ sh ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_I
 
 ```
 UNComp/
-├── modeling_*.py              # Model implementations with PCW
-├── run_evaluation*.py         # Evaluation scripts
-├── experiment_manager*.py     # Experiment management
-├── pcw_wrapper*.py           # Parallel Context Window wrapper
-├── datasets_loader.py        # Dataset loading utilities
-├── eval_longbench.py         # LongBench evaluation
+├── eval_*.py                 # Evaluation
+├── run_*.py                  # Run Codes
 ├── metrics.py                # Evaluation metrics
+├── uncomp/
+    ├── utils/                # Some tools
+    ├── cache_revise.py       # Adaptive code for grouping the head part
+    ├── download.py           # download the datasets
+    ├── llama_model.py        # Code of llama model
+    ├── mistral_model.py      # Code of mistral model
+    ├── monkeypatch.py        # Replace certain sections of transformers
+    ├── stage_division.py     # Layer grouping
+    ├── uncomp_utils.py       # Core code implementation
 ├── scripts/                  # Bash scripts and configs
-├── longbench_config/         # LongBench configurations
-├── results/                  # Output results
+├── search/                   # The head grouping
+├── data/                     # Datasets
+├── results/                  # The generated text results
 └── requirements.txt          # Dependencies
 ```
 
