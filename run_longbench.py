@@ -29,7 +29,7 @@ logger = Logger()
 datasets = ["narrativeqa", "qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "musique", \
             "trec", "triviaqa","passage_count", "passage_retrieval_en",  \
             "qmsum","samsum","lcc", "repobench-p","gov_report","multi_news"] 
-
+datasets = ["multifieldqa_en"]
 dataset2maxlen = {
     "narrativeqa": 128,
     "qasper": 128,
@@ -281,9 +281,6 @@ def main(args,manager):
                     manager.sample_time+=1
                     print("manager.sample_time",manager.sample_time)
                 sys.exit(0)
-            if manager.method_name in manager.draw_picture_set:
-                output_max_len = 1
-                manager.dataset = args.dataset
             
             output = model.generate(
                 input_ids=batch_input_ids,
@@ -322,29 +319,27 @@ def main(args,manager):
                 example["_id"] = batch__ids[j]
                 results["outputs"].append(example)
                 results["num_tokens"] += len(batch_generations[j])
-            if manager.method_name in manager.draw_picture_set:
-                break  
-            def get_rocm_memory():
-                result = subprocess.run(
-                    ['rocm-smi','--showmeminfo', 'vram'],
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    text=True
-                )
-                lines = result.stdout.splitlines()
-                for i, line in enumerate(lines):
-                    if "GPU[2]" in line and "VRAM Total Used Memory (B)" in line:
-                        value = int(line.split(": ")[2].strip().split()[0])
-                        value = value /(1024**2)
-                        # print(f"GPU 2 VRAM Total Memory : {value :.2f} MB")
-                        return value
+            # def get_rocm_memory():
+            #     result = subprocess.run(
+            #         ['rocm-smi','--showmeminfo', 'vram'],
+            #         stdout=subprocess.PIPE,
+            #         stderr=subprocess.PIPE,
+            #         text=True
+            #     )
+            #     lines = result.stdout.splitlines()
+            #     for i, line in enumerate(lines):
+            #         if "GPU[2]" in line and "VRAM Total Used Memory (B)" in line:
+            #             value = int(line.split(": ")[2].strip().split()[0])
+            #             value = value /(1024**2)
+            #             # print(f"GPU 2 VRAM Total Memory : {value :.2f} MB")
+            #             return value
             
-            used = get_rocm_memory()
-            if manager.max_used < used:
-                manager.max_used = used
-            if manager.min_used > used:
-                manager.min_used = used
-            print(f'Max used: {manager.max_used:.2f} MB, Min used: {manager.min_used:.2f} MB')
+            # used = get_rocm_memory()
+            # if manager.max_used < used:
+            #     manager.max_used = used
+            # if manager.min_used > used:
+            #     manager.min_used = used
+            # print(f'Max used: {manager.max_used:.2f} MB, Min used: {manager.min_used:.2f} MB')
         results = [results]
         sums = [manager.sum1]
     
@@ -1168,7 +1163,6 @@ class func_utils:
         self.not_update(manager)
         self.other_methods(manager)
         self.calib_sets(manager)
-        self.draw_picture_sets(manager)
         
         self.uncomp_sets(manager)
         self.uncomp_extend(manager)

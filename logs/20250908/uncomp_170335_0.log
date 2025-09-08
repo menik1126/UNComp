@@ -1,0 +1,8 @@
+2025-09-08 17:03:35,689 - [Process 0/1] - INFO - args.seed is 43
+2025-09-08 17:03:36,168 - [Process 0/1] - INFO - model_path is meta-llama/llama-2-7b-chat-hf 
+2025-09-08 17:03:36,168 - [Process 0/1] - INFO - uncomp
+2025-09-08 17:03:41,226 - [Process 0/1] - INFO - args.model_path is meta-llama/Llama-2-7b-chat-hf
+2025-09-08 17:03:41,305 - [Process 0/1] - INFO - Working on max_capacity_prompts 512 dataset multifieldqa_en - 0/1
+2025-09-08 17:03:41,305 - [Process 0/1] - INFO - Loading data...
+2025-09-08 17:03:41,328 - [Process 0/1] - INFO - Max Length is 10337
+2025-09-08 17:03:41,328 - [Process 0/1] - INFO - Finish loading model and tokenizer

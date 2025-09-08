@@ -49,7 +49,7 @@ if [ -z "$method" ] || [ -z "$max_capacity_prompts" ] || [ -z "$attn_implementat
   echo "Usage: $0 <ROCM_VISIBLE_DEVICES> --method <method> --max_capacity_prompts <max_capacity_prompts> --attn_implementation <attn_implementation> --source_path <source_path> --model_path <model_path>"
   exit 1
 fi
-gpu_id="/home/avnet/xiongjing/UNComp/scripts/scripts_longBench/gpu${gpu_id}.yaml"
+gpu_id="/home/xiongjing/sjh/UNComp/scripts/scripts_longBench/gpu${gpu_id}.yaml"
 save_dir="${source_path}results_long_bench"
 accelerate launch --config_file $gpu_id --main_process_port $port run_longbench.py \
     --method ${method} \

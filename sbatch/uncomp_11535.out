@@ -1,0 +1,94 @@
+Mon Sep  8 17:03:29 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:4F:00.0 Off |                    0 |
+| N/A   28C    P0             61W /  300W |   27752MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100 80GB PCIe          Off |   00000000:52:00.0 Off |                    0 |
+| N/A   45C    P0            264W /  300W |   49819MiB /  81920MiB |     99%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A100 80GB PCIe          Off |   00000000:56:00.0 Off |                    0 |
+| N/A   41C    P0            298W /  300W |   75433MiB /  81920MiB |    100%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A100 80GB PCIe          Off |   00000000:57:00.0 Off |                    0 |
+| N/A   29C    P0             44W /  300W |       3MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   4  NVIDIA A100 80GB PCIe          Off |   00000000:D5:00.0 Off |                    0 |
+| N/A   32C    P0             63W /  300W |   64193MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A   3257568      C   /home/shenhui/miniconda3/bin/python         27136MiB |
+|    0   N/A  N/A   4013607      C   ray::main_task                                602MiB |
+|    1   N/A  N/A   4013971      C   ...rkerDict.actor_rollout_update_actor      49602MiB |
+|    2   N/A  N/A   4014198      C   ...rkerDict.actor_rollout_update_actor      75216MiB |
+|    4   N/A  N/A   3994390      C   python                                      64184MiB |
++-----------------------------------------------------------------------------------------+
+Current path: /home/xiongjing/sjh/UNComp
+Output Catalogue /home/xiongjing/sjh/UNComp/./output/
+2025-09-08 17:03:35,689 - [Process 0/1] - INFO - args.seed is 43
+2025-09-08 17:03:36,168 - [Process 0/1] - INFO - model_path is meta-llama/llama-2-7b-chat-hf 
+2025-09-08 17:03:36,168 - [Process 0/1] - INFO - uncomp
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.89s/it]
+2025-09-08 17:03:41,226 - [Process 0/1] - INFO - args.model_path is meta-llama/Llama-2-7b-chat-hf
+2025-09-08 17:03:41,305 - [Process 0/1] - INFO - Working on max_capacity_prompts 512 dataset multifieldqa_en - 0/1
+2025-09-08 17:03:41,305 - [Process 0/1] - INFO - Loading data...
+2025-09-08 17:03:41,328 - [Process 0/1] - INFO - Max Length is 10337
+2025-09-08 17:03:41,328 - [Process 0/1] - INFO - Finish loading model and tokenizer
+  0%|          | 0/150 [00:00<?, ?it/s]/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+The `seen_tokens` attribute is deprecated and will be removed in v4.41. Use the `cache_position` model input instead.
+`get_max_cache()` is deprecated for all Cache classes. Use `get_max_cache_shape()` instead. Calling `get_max_cache()` will raise error from v4.48
+  0%|          | 0/150 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/xiongjing/sjh/UNComp/run_longbench.py", line 1266, in <module>
+    main(args,manager)
+  File "/home/xiongjing/sjh/UNComp/run_longbench.py", line 285, in main
+    output = model.generate(
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/transformers/generation/utils.py", line 2252, in generate
+    result = self._sample(
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/transformers/generation/utils.py", line 3251, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 1163, in forward
+    outputs = self.model(
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/transformers/models/llama/modeling_llama.py", line 913, in forward
+    layer_outputs = decoder_layer(
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+TypeError: LlamaDecoderLayer_forward() got an unexpected keyword argument 'position_embeddings'
+Traceback (most recent call last):
+  File "/home/xiongjing/miniconda3/envs/searchr1/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1198, in launch_command
+    simple_launcher(args)
+  File "/home/xiongjing/miniconda3/envs/searchr1/lib/python3.9/site-packages/accelerate/commands/launch.py", line 785, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/xiongjing/miniconda3/envs/searchr1/bin/python3.9', 'run_longbench.py', '--method', 'uncomp', '--seed', '43', '--model_path', 'meta-llama/Llama-2-7b-chat-hf', '--max_capacity_prompts', '512', '--attn_implementation', 'eager', '--save_dir', './results/results_long_bench', '--use_cache', 'True', '--method_name', 'uncomp', '--fphalf', '1', '--pattern', 'info', '--eval_batch_size', '1']' returned non-zero exit status 1.
