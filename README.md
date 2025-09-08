@@ -57,7 +57,7 @@ pip install -r requirements.txt
 #### LongBench
 
 ```bash
-sh ./scripts/scripts_longBench/eval.sh \
+bash ./scripts/scripts_longBench/eval.sh \
     --max_capacity_prompts 512 \
     --attn_implementation eager \
     --source_path ./results/ \
@@ -94,7 +94,8 @@ python uncomp/stage_division.py
 ```
 #### Head Groups
 ```bash
-sh ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method head_type_search_2 --name ./output --gpu_id multi_0 --fp16 1 --seed 43 --logger_pattern info --port 1236
+# two groups
+bash ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method head_type_search_2 --name ./output --gpu_id 0 --fp16 1 --seed 43 --logger_pattern info --port 1236
 ```
 
 ### LongBench Evaluation
@@ -104,12 +105,12 @@ Evaluate on LongBench datasets using the provided scripts:
 ```bash
 # Generation 
 ### Multi-GPU evaluation 
-sh ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id multi_0 --fp16 1 --seed 43 --logger_pattern info --port 1236
+bash ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id multi_0 --fp16 1 --seed 43 --logger_pattern info --port 1236
 ### Single GPU evaluation  
-sh ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id 0 --fp16 1 --seed 43 --logger_pattern info --port 1236
+bash ./scripts/scripts_longBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id 0 --fp16 1 --seed 43 --logger_pattern info --port 1236
 
 # Evaluation
-sh ./scripts/scripts_longBench/metrics.sh --results_dir  ./results/results_long_bench/llama-2-7b-chat-hf_512/ --switch True  --new_method uncomp
+bash ./scripts/scripts_longBench/metrics.sh --results_dir  ./results/results_long_bench/llama-2-7b-chat-hf_512/ --switch True  --new_method uncomp
 ```
 
 ### Infinitebench Evaluation
@@ -119,12 +120,12 @@ Evaluate on LongBench datasets using the provided scripts:
 ```bash
 # Generation
 ### Multi-GPU evaluation 
-sh ./scripts/scripts_InfiniteBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id multi_0 --fp16 1 --seed 43 --logger_pattern info --port 1236
+bash ./scripts/scripts_InfiniteBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id multi_0 --fp16 1 --seed 43 --logger_pattern info --port 1236
 ### Single GPU evaluation  
-sh ./scripts/scripts_InfiniteBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id 0 --fp16 1 --seed 43 --logger_pattern info --port 1236
+bash ./scripts/scripts_InfiniteBench/eval.sh --max_capacity_prompts 512 --attn_implementation eager --source_path ./results/ --model_path meta-llama/Llama-2-7b-chat-hf --eval_batch_size 1 --method uncomp --name ./output --gpu_id 0 --fp16 1 --seed 43 --logger_pattern info --port 1236
 
 # Evaluation
-sh ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_Inifite_bench/llama-2-7b-chat-hf_512/ --switch True  --new_method uncomp
+bash ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_Inifite_bench/llama-2-7b-chat-hf_512/ --switch True  --new_method uncomp
 ```
 
 **Hyperparameter selection**: 
@@ -197,9 +198,9 @@ If you find this work useful, please cite our paper:
 
 ```bibtex
 @article{xiong2025parallelcomp,
-  title={ParallelComp: Parallel Long-Context Compressor for Length Extrapolation},
+  title={UNCOMP: Can Information Compression Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective},
   author={Xiong, Jing and Shen, Jianghan and Ye, Fanghua, and Tao, Chaofan and Wan, Zhongwei and Lu, Jianqiao and Zheng, Chuanyang, and Guo, Zhijiang and Yang, Min and Kong, Lingpeng and Wong Ngai},
-  journal={arXiv preprint arXiv:2502.14317},
+  journal={arXiv preprint arXiv:2410.03090},
   year={2025}
 }
 ```
