@@ -281,9 +281,9 @@ def main(args,manager):
                     manager.sample_time+=1
                     print("manager.sample_time",manager.sample_time)
                 sys.exit(0)
-            if manager.method_name in manager.draw_picture_set:
-                output_max_len = 1
-                manager.dataset = args.dataset
+            # if manager.method_name in manager.draw_picture_set:
+            #     output_max_len = 1
+            #     manager.dataset = args.dataset
             
             output = model.generate(
                 input_ids=batch_input_ids,
