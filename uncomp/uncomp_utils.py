@@ -185,8 +185,8 @@ class UncompCluster():
                 svdn = 32 
                 head_pattern = get_head_pattern_attn_entropy(attn_weights,query_states,0,svdn,0,[0,select_topk])
                 svdn = "svd" + str(svdn)
-                filename = f"./search/512/llama2-chat/query/{svdn}/"
-                filename = f"./search/llama3-instruct/2_groups/{svdn}/"
+                # filename = f"./search/TinyLlama/query/{svdn}/"
+                filename = f"./search/TinyLlama/2_groups/query/{svdn}/"
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 filename = filename + "head_type_search_layer" + str(self.layer_idx) + ".csv"
                 if manager.sample_time == 0:
@@ -1554,7 +1554,7 @@ class UncompCluster():
                     #     max_capacity_prompts = [512,427,341,256]
                     # else:
                     #     max_capacity_prompts = []
-                    #     max_cap = max_capacity_prompt
+                #     max_cap = max_capacity_prompt
                     #     min_cap = max_capacity_prompt // 2
                     #     allowance = (max_cap-min_cap) // 3
                     #     for i in range(4):

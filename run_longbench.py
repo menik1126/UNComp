@@ -26,10 +26,10 @@ import logging
 accelerator = Accelerator()
 logger = Logger()
 
-datasets = ["narrativeqa", "qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "musique", \
-            "trec", "triviaqa","passage_count", "passage_retrieval_en",  \
-            "qmsum","samsum","lcc", "repobench-p","gov_report","multi_news"] 
-
+# datasets = ["narrativeqa", "qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "musique", \
+#             "trec", "triviaqa","passage_count", "passage_retrieval_en",  \
+#             "qmsum","samsum","lcc", "repobench-p","gov_report","multi_news"] 
+datasets = ["multifieldqa_en"] 
 dataset2maxlen = {
     "narrativeqa": 128,
     "qasper": 128,
@@ -105,6 +105,7 @@ model2maxlen = {
     "llama-3": 7950,
     "mistral": 3950,
     "mistral": 12000,
+    "tinyllama": 1800,
 }
 
 
@@ -322,8 +323,8 @@ def main(args,manager):
                 example["_id"] = batch__ids[j]
                 results["outputs"].append(example)
                 results["num_tokens"] += len(batch_generations[j])
-            if manager.method_name in manager.draw_picture_set:
-                break  
+            # if manager.method_name in manager.draw_picture_set:
+            #     break  
             def get_rocm_memory():
                 result = subprocess.run(
                     ['rocm-smi','--showmeminfo', 'vram'],
@@ -578,6 +579,11 @@ class func_utils:
             manager.num_hidden_layers = 40
             manager.num_attention_heads = 40
             manager.max_token = 4096
+        elif "tinyllama" in model_path:
+            print("tinyllama detected")
+            manager.max_token = 1800
+            manager.num_attention_heads = 32
+            manager.num_hidden_layers = 22
         else:
             manager.chai_layers = manager.chai_layers_llama2
             manager.max_token = 4096
@@ -825,6 +831,9 @@ class func_utils:
                 if "llama-3" in manager.model_path:
                     logger.info("llama3")
                     filename = f"./search/llama3-instruct/2_groups/svd32/head_type_search_layer" + str(i) + ".csv"
+                elif "tinyllama" in manager.model_path:
+                    logger.info("tinyllama")
+                    filename = f"./search/TinyLlama/2_groups/query/svd32/head_type_search_layer" + str(i) + ".csv"
                 elif "variance" in manager.method_name:
                     filename = "./search/512/llama2-chat/variance/head_type_search_layer" + str(i) + ".csv"
                     logger.info(f"filename is {filename}")
@@ -833,6 +842,7 @@ class func_utils:
                         filename = f"./search/llama2-chat/2_groups_nosvd/svd128/head_type_search_layer" + str(i) + ".csv"
                     else:
                         filename = "./search/512/llama2-chat/query/head_type_search_layer" + str(i) + ".csv"
+                
                 data_layers = []
                 if os.path.isfile(filename):
                     import csv
@@ -1168,7 +1178,7 @@ class func_utils:
         self.not_update(manager)
         self.other_methods(manager)
         self.calib_sets(manager)
-        self.draw_picture_sets(manager)
+        # self.draw_picture_sets(manager)
         
         self.uncomp_sets(manager)
         self.uncomp_extend(manager)
@@ -1212,7 +1222,8 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_path,
         use_fast=args.use_fast_tokenizer,
-        padding_side="left"
+        padding_side="left",
+        # use_auth_token=True
     )
     model_path = args.model_path.lower()
     logger.info(f"model_path is {model_path} ")

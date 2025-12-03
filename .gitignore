@@ -1,2 +1,5 @@
 data/
 InfiniteBench/
+logs/
+results/
+output/

@@ -136,6 +136,18 @@ def llama_attn_forward_Uncomp(
                     min_len = 1536
                     allowance = (manager.max_token-min_len)//7
                     keep_seq_len = min_len+allowance*(7-stage_label[self.layer_idx])    
+                elif num_hidden_layers == 22:
+                    # logger.info("logger info: using 22 layers stage_label")
+                    stage_label = [0,0, 
+                                   1,1,1,1, 
+                                   2,2,2,2,2,2, 
+                                   3,3,3,3,3,3,
+                                   4,4,4,4
+                                   ] 
+                    attn_sum = manager.last_attn
+                    min_len = 768
+                    allowance = (manager.max_token-min_len)//4
+                    keep_seq_len = min_len+allowance*(4-stage_label[self.layer_idx])
                 else:
                     stage_label = [0,0, 
                                    1,1,1,1,1,1,1,1,1,1,1,1,1, 
