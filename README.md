@@ -3,6 +3,16 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2410.03090-b31b1b.svg)](https://arxiv.org/abs/2410.03090)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
+## 📝 Update Log
+
+| Date | Update |
+|------|--------|
+| 2025-12-28 | Added Qwen model support (`uncomp/qwen_model.py`) |
+| 2025-12-28 | Added document-level machine translation benchmark (`doclevel-MT-benchmark/`) |
+| 2025-12-28 | Added WMT evaluation scripts (`scripts/scripts_wmt/`) |
+
+---
+
 This repository contains the official implementation of **UNCOMP**, an uncertainty-aware KV cache compression framework for long-context LLMs. It leverages truncated matrix entropy to reveal sparsity, cutting cache size to 4.74%, boosting throughput by 6×, with minimal performance loss.
 
 ## 📄 Paper
@@ -75,7 +85,8 @@ bash ./scripts/scripts_longBench/eval.sh \
 ### Supported Models
 
 - **LLaMA** family models  
-- **mistral** models
+- **Mistral** models
+- **Qwen** models (NEW)
 
 ### Supported Datasets
 
@@ -84,6 +95,9 @@ bash ./scripts/scripts_longBench/eval.sh \
 - **InfiniteBench**: En.Sum, En.QA, En.MC, En.Dia, Zh.QA, Code.Debug, Code.Run, Math.Calc, Math.Find, Retrieve.PassKey, Retrieve.Number, Retrieve.KV
 - **Needle in a Haystack Task**: A simple 'needle in a haystack' analysis to test in-context retrieval ability of long context LLMs.
 - **Standard Benchmarks**: GSM8K
+
+#### Document-level Machine Translation (NEW)
+- **Doc-level MT Benchmark**: English-German translation benchmark with document-level context (see `doclevel-MT-benchmark/`)
 
 ## 📈 Evaluation Scripts
 
@@ -127,6 +141,32 @@ bash ./scripts/scripts_InfiniteBench/eval.sh --max_capacity_prompts 512 --attn_i
 # Evaluation
 bash ./scripts/scripts_InfiniteBench/metrics.sh --results_dir  ./results/results_Inifite_bench/llama-2-7b-chat-hf_512/ --switch True  --new_method uncomp
 ```
+
+### Document-level Machine Translation Evaluation
+
+Evaluate on document-level English-German translation using the WMT benchmark:
+
+```bash
+# Run WMT translation evaluation
+bash ./scripts/scripts_wmt/eval.sh \
+    --max_capacity_prompts 512 \
+    --attn_implementation eager \
+    --source_path ./results/ \
+    --model_path meta-llama/Llama-2-7b-chat-hf \
+    --eval_batch_size 1 \
+    --method uncomp \
+    --name ./output \
+    --gpu_id 0 \
+    --fp16 1 \
+    --seed 43 \
+    --logger_pattern info \
+    --port 1236
+```
+
+The document-level MT benchmark dataset is located in `doclevel-MT-benchmark/` with the following structure:
+- `dev/`: Development set
+- `test/`: Test set
+- `unshuffle.py`: Utility script for data processing
 
 **Hyperparameter selection**: 
 - method:
