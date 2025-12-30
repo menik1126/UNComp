@@ -106,6 +106,7 @@ model2maxlen = {
     "mistral": 3950,
     "mistral": 12000,
     "tinyllama": 1800,
+    "qwen2": 7950,
 }
 
 
@@ -584,6 +585,11 @@ class func_utils:
             manager.max_token = 1800
             manager.num_attention_heads = 32
             manager.num_hidden_layers = 22
+        elif "qwen2" in model_path:
+            logger.info("qwen2 detected")
+            manager.max_token = 8192
+            manager.num_attention_heads = 28
+            manager.num_hidden_layers = 28
         else:
             manager.chai_layers = manager.chai_layers_llama2
             manager.max_token = 4096
@@ -834,6 +840,10 @@ class func_utils:
                 elif "tinyllama" in manager.model_path:
                     logger.info("tinyllama")
                     filename = f"./search/TinyLlama/2_groups/query/svd32/head_type_search_layer" + str(i) + ".csv"
+                elif "qwen2" in manager.model_path:
+                    logger.info("qwen2")
+                    filename = f"./search/Qwen2/2_groups/query/svd32/head_type_search_layer" + str(i) + ".csv"
+                    
                 elif "variance" in manager.method_name:
                     filename = "./search/512/llama2-chat/variance/head_type_search_layer" + str(i) + ".csv"
                     logger.info(f"filename is {filename}")
@@ -1257,8 +1267,9 @@ if __name__ == "__main__":
         tokenizer.pad_token_id = tokenizer.eos_token_id
     
     if "llama" in model_path.lower() or "mistral" in model_path.lower():
-        from uncomp.monkeypatch import replace_llama,replace_mistral
+        from uncomp.monkeypatch import replace_llama,replace_mistral,replace_qwen
         replace_llama(args.method.lower(),manager)
+        replace_qwen(args.method.lower(),manager)
         replace_mistral(args.method.lower(),manager)
         func_utils_instance.determine_head_type(manager,device=model.device)
     
