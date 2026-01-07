@@ -106,7 +106,7 @@ model2maxlen = {
     "mistral": 3950,
     "mistral": 12000,
     "tinyllama": 1800,
-    "qwen2": 7950,
+    "qwen2": 8000,
 }
 
 
@@ -124,6 +124,8 @@ def set_seed(seed):
 def build_chat(prompt):
         prompt = f"[INST] {prompt} [/INST]"
         return prompt
+
+    
 
 def main(args,manager):
     logger.info("Loading data...")
@@ -156,6 +158,7 @@ def main(args,manager):
             prompt = template.format(**example)
             if "llama2" in args.model_path.lower():
                 prompt = build_chat(prompt)
+            
             example["prompt"] = prompt
             test_data.append(example)
         
@@ -226,9 +229,37 @@ def main(args,manager):
                 if len(batch_input_ids[0]) > model_max_len:
                     half = int(model_max_len/2)
                     prompt = [tokenizer.decode(batch_input_ids[i][padding_len[i]:padding_len[i]+half], skip_special_tokens=True)+tokenizer.decode(batch_input_ids[i][-half:], skip_special_tokens=True) for i in range(len(batch_input_ids))]
+                    messages = [
+                        {"role": "user", "content": prompt[0]}
+                    ]
+                    if "qwen2" in manager.model_path.lower():
+                        prompt = tokenizer.apply_chat_template(
+                            messages,
+                            tokenize=False,
+                            add_generation_prompt=True
+                    )
+                        
                     tokenized_prompts = tokenizer(prompt, padding="longest", return_tensors="pt", add_special_tokens=True).to('cuda')
                     batch_input_ids = tokenized_prompts.input_ids
                     attention_mask = tokenized_prompts.attention_mask
+                else:
+                    prompt = [tokenizer.decode(batch_input_ids[i], skip_special_tokens=True) for i in range(len(batch_input_ids))]
+                    messages = [
+                        {"role": "user", "content": prompt[0]}
+                    ]
+                    if "qwen2" in manager.model_path.lower():
+                        prompt = tokenizer.apply_chat_template(
+                            messages,
+                            tokenize=False,
+                            add_generation_prompt=True
+                    )
+                        
+                    tokenized_prompts = tokenizer(prompt, padding="longest", return_tensors="pt", add_special_tokens=True).to('cuda')
+                    batch_input_ids = tokenized_prompts.input_ids
+                    attention_mask = tokenized_prompts.attention_mask
+                
+                
+                
             else:            
                 if len(batch_input_ids[0]) > model_max_len:
                     new_batch_input_ids = torch.zeros((len(batch_input_ids), model_max_len), dtype=torch.long).to('cuda')

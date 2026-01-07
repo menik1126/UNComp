@@ -10,6 +10,8 @@ Using method:  uncomp
 Using method:  uncomp
 Using method:  uncomp
 Using method:  uncomp
+Using method: Using method:   uncompuncomp
+
 Using method:  uncomp
 Using method:  uncomp
 Using method:  uncomp
@@ -17,758 +19,756 @@ Using method:  uncomp
 Using method:  uncomp
 Using method:  uncomp
 Using method:  uncomp
-Using method:  uncomp
-Using method:  uncomp
-max_capacity_prompts [859, 1719]
-max_capacity_prompts [1269, 2539]
-Memory freed:        reserved=14.9336 GB, allocated=14.7105 GB
-
-batch_outputs is  ['! South!!!! West!! Ultra!s! !fan!!!!!! club! !is!!!! the!!! most!!!!!!!!! active!!!!! fan!!!!!!!!!!! club! !']
-Max used: 16693.32 MB, Min used: 16693.32 MB
-Memory freed:        reserved=14.9629 GB, allocated=14.7432 GB
-
-batch_outputs is  ['! 120\nBased! on!! the!!!!! information!!! provided! in!! the!!!!!!! text!,!!!! Margaret!! Way!!!!!!!!!!!!!!! !!wrote!']
-max_capacity_prompts [2842, 5685]
-Max used: 48001.97 MB, Min used: 48001.97 MB
-Memory freed:        reserved=15.0234 GB, allocated=14.8307 GB
-
-batch_outputs is  ['![](https://img.hellos!t.dev/FBn.png)5\n\nThe![](https://img!t.dev/FBn.png) controller![](https://img!t.dev/FBn.png)![](https://img!t.dev/FBn.png) was![](https://']
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Max used: 62841.00 MB, Min used: 62841.00 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3258, 6516]
-max_capacity_prompts [2581, 5163]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Th!!assem!as!re!cl!ss!f!ed!!cc!rd!ng!!to!!he!glob!!!ff!ected!;!!t!!!s!div!!!!ted!!!nt!wo!!!!']
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Peter!!! Denning\nPeter!! Den!ning is!!! the!!!!!!!!!!!!!!!!! program!!!!! chair! of!!!!!! this!!!!!!!!!!!!']
-Max used: 37767.50 MB, Min used: 37767.50 MB
-Max used: 37767.50 MB, Min used: 37767.50 MB
-Memory freed:        reserved=15.2129 GB, allocated=14.8428 GB
-
-batch_outputs is  [' The!proposed!approach!!!cons!ists!!in!!!approx!imating!!!!!the!!post!erior!!!!distribution!$p!({!!w!_k!|!!!!y!_{1!:!!k']
-Max used: 48001.97 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['!4!52!0\n\nThe!4!52!0! attendees!at!!the!!!!!233rd!!ACS!!!national!!!!!!!meeting!included!!7!15!2!chemical!!!scient!']
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['![](https://i.imgur.com!VZtjKfN.png) In the![](https://i!imgur.com!VZtjKfN.png)early![](https://i!imgur!com!VZtjKfN!png)![](https://']
-Max used: 27639.50 MB, Min used: 27639.50 MB
-Max used: 27639.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [1665, 3331]
-Memory freed:        reserved=14.9004 GB, allocated=14.8259 GB
-
-batch_outputs is  ['!Lasa, Gitastrophe,!!!Shad!oks! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 62841.00 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9395 GB, allocated=14.898 GB
-
-batch_outputs is  [' No! The! ISR! Is!! Not!!!!! Necessary! For!!!!!!! Transgene!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! React']
-Max used: 25451.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=14.9434 GB, allocated=14.755 GB
-
-batch_outputs is  ['! McPherson\n! McPherson\nThe!! county!seat!of!!!!Mc!Ph!er!son!!County!is!!Mc!Ph!er!son!.\nTherefore,!the!answer!to!the!question!is!!Mc!']
-Max used: 58217.50 MB, Min used: 37767.50 MB
-max_capacity_prompts [1665, 3331]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9434 GB, allocated=14.755 GB
-
-batch_outputs is  ['! 1870\nBased! on! the!! text!! provided!!,!!!!!! Mc!Pherson!!County!!was!!!!establish!ed!!!!!as!!!!a!!!!county!!!!!']
-Max used: 62885.50 MB, Min used: 37767.50 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [2280, 4560]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.8633 GB, allocated=14.8978 GB
-
-batch_outputs is  ['! The!!!! conduction!!!!!!!!!!!!!!!!! gap! is!!! !! ! !!! !! !!! !!! !! !!! !!! !!! !!! !!! !!']
-Max used: 37767.50 MB, Min used: 34501.50 MB
-Memory freed:        reserved=15.8809 GB, allocated=14.8985 GB
-
-batch_outputs is  ['![](https://img.arzhi.com/20230928161615.png)\nYes,![](https://img.arzhi.com/20230928161615.png)\nDUO![](https://img![](https']
-Max used: 48001.97 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.8633 GB, allocated=14.8978 GB
-
-batch_outputs is  ['! Justice! Kennedy!! argued! that!!!!! the!! Internet!!!!!!!!!!!!! had!!!!!!!!!!!!!!!!!!! caused!!!!!!!! "!!!']
-Max used: 27749.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [1946, 3893]
-Memory freed:        reserved=15.8633 GB, allocated=14.8978 GB
-
-batch_outputs is  ['![](https://latex!.\\frac!{e^2!}{!4\\pi! \\epsilon!_0! a!_{!!ws!}!}! \\frac!{1!}{!k!_B!!!T!_e!}!)! To clarify! ,']
-Max used: 27749.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9648 GB, allocated=14.7911 GB
-
-batch_outputs is  [' 1. 使用![](https://truffle![](https://truffleframework![](https://truffle![](https://truffle![](https://truffle![](https://truffle![](https://truffle![](https://truffle![](https://truffle![](https://tr']
-Max used: 62885.50 MB, Min used: 27749.50 MB
-Memory freed:        reserved=15.9395 GB, allocated=14.8987 GB
-
-batch_outputs is  [' The!court!!concluded!that!!the!method!!claims!!!did!not!!s!atisfy!!!!!the!!transformation!!!!!!!pr!!ong!!!!!of!!!!!!the!']
-Max used: 62841.00 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.8978 GB
-
-batch_outputs is  [' Low!! temperature!!!!!! scanning!!!!!!! tunnel!!!!!!! microscopy! and!!!!!! spectroscopy (STM! /!!! ST! S)! were!!!!!!!!!!! used! to!']
-Max used: 25455.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.6211 GB, allocated=14.7793 GB
-
-batch_outputs is  [" 7 March 2023\nYou: Answer! 7 March 2023!! You've!! got! it! right! The!!!! paper!! was!!!!!!!!!!! published!! on!! 7!!"]
-Max used: 61751.50 MB, Min used: 34501.50 MB
-max_capacity_prompts [3214, 6429]
-max_capacity_prompts [3217, 6434]
-max_capacity_prompts [2792, 5584]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9844 GB, allocated=14.8412 GB
-
-batch_outputs is  ['! Environmental!!!!! fluctuation! and!!!! uncertainty! control!!! the!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63347.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9844 GB, allocated=14.8413 GB
-
-batch_outputs is  ['![](https://latex.codec!ars.net/png?%5Ctext{As!the!!probability!!of!!!transition!incre!ases!!,!!!!the!!!!!ev!olved!!!!!!!learning!!rate!decre!ases']
-max_capacity_prompts [3975, 7950]
-Max used: 63651.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9199 GB, allocated=14.8304 GB
-
-batch_outputs is  ['! V + , V 0 and V − ! The!! parameter!!!! space! V! is!!!!!!!!!!!! divided! into! three!!!!! subsets! V +,! V 0! and!! V −! by!!']
-Max used: 61751.50 MB, Min used: 34501.50 MB
-max_capacity_prompts [1051, 2103]
-Memory freed:        reserved=15.8789 GB, allocated=14.8969 GB
-
-batch_outputs is  [' Symptoms! of!!!!!! K1!!!! deficiency! include!!! anemia!,,!!!!!!!!!!!! bruising!,,!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 48001.97 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9375 GB, allocated=14.8984 GB
-
-batch_outputs is  [" By!! pressing! '!!SKIP!'.\n```\n\nThe! correct!!!! answer!! is!!! that!!!!!! players!! can!!!!! skip!!!!!!!!!!!!!!!!!!! dialogue"]
-Max used: 27755.49 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.875 GB, allocated=14.8986 GB
-
-batch_outputs is  [' The!adv!antage!of!!!!decor!rel!at!!ing!!!!!!!data!!before!!!!!!running!!!!!!!!!!!!!!!!!!!!!!PL!S!!']
-max_capacity_prompts [1467, 2935]
-Max used: 62885.50 MB, Min used: 27749.50 MB
-Memory freed:        reserved=14.9473 GB, allocated=14.7206 GB
-
-batch_outputs is  ['![](https://tse3-mm.cn.bing.net/th/id!OIP!-!!c!2!f!1024!d!e!w!-1!c!-1!o!8!s!1200x900?pid!1']
-Max used: 61751.50 MB, Min used: 27755.49 MB
-max_capacity_prompts [841, 1682]
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  [' An! I! C!! D! (!!!!! Implantable!!! Cardio!verter! Def!!!!! a!!r!ial!!! Stim!ulator! !or!! !!! !! !! !! !! !! !! !']
-Max used: 25461.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [3813, 7626]
-Memory freed:        reserved=14.9297 GB, allocated=14.7492 GB
-
-batch_outputs is  ['![](https://tva1.sinaimg.cn/large/008i3skNgy1g6qzjx6y9wj30m80m8uah.jpg)4![](https://tva1![](https://tva1.sinaimg.cn/l']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9316 GB, allocated=14.7095 GB
-
-batch_outputs is  ['! The!! club! headquarters! are!!!! located!!! on!!! J!iv!ani!!!!!! Street!! 2! of!!!!!!!!!!!!!!!!!!!!!!! the!']
-Max used: 65083.50 MB, Min used: 27755.49 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=16.2578 GB, allocated=14.904 GB
-
-batch_outputs is  [' The!problem!!enc!ount!ered!!!!!when!!!!!!!building!!the!!f!us!el!age!!!!!!s!!ides!!!is!!that!!the!completed!s!ides!may']
-Max used: 63347.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [1580, 3160]
-max_capacity_prompts [3817, 7634]
-Memory freed:        reserved=15.9375 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Molecular!!! Ultracold!! Pl!as!ma!s!! that!!!!!! form!!!!!!!!! via!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63651.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.8789 GB, allocated=14.8979 GB
-
-batch_outputs is  ['! The security parameter! for!!!! AES!!-!256!! is!! 172.!!\nBased! on!!! the!!!! table!!! presented!! in!!!!! the!!!!!! text!!,!']
-Max used: 48001.97 MB, Min used: 27299.51 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9434 GB, allocated=14.7525 GB
-
-batch_outputs is  [' January 1929. \n\nExplanation!:\nThe! text!! states! that!!!!!!! after!!!!!!!!!!!! completing!! his!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63347.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9355 GB, allocated=14.8986 GB
-
-batch_outputs is  ['! The name of!! the!!!!!!!!!!! gener!at!ive!!!!!!!!! inter!ac!t!iv!e!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 62885.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [2073, 4147]
-Memory freed:        reserved=15.6387 GB, allocated=14.9007 GB
-
-batch_outputs is  [' To! form!!!!! a!!!!!!!!!!!! conical!! shape!! !that!! !!allows! !the!! !long!! !!! !! !! !! !! !! !! !! !! !']
-Max used: 25461.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.9434 GB, allocated=14.8986 GB
-
-batch_outputs is  [' C-295\nYou are!!|Explain how!|!you!|!would!|!use!|!the!|!information!|!!from!|!the!|!given!|!text!|!to!|!answer!|!the']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9551 GB, allocated=14.7847 GB
-
-batch_outputs is  ['![](https://img2023.cnblogs.com/blog/1003475/202306/1003475-202306!115211.png)V\n根据提供的![](https://img202']
-Max used: 63347.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.9492 GB, allocated=14.898 GB
-
-batch_outputs is  ['!NFPA and!!FPS!A!!v!astly!!outper!e!r!f!D!SA!!!!!and!!!!!!GM!RES!!!!!!!!!for!!!!!!!!!!']
-Max used: 65083.50 MB, Min used: 27755.49 MB
-max_capacity_prompts [1443, 2887]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [2495, 4990]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9297 GB, allocated=14.7485 GB
-
-batch_outputs is  ['! June 1, 1999. !!! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 63755.49 MB, Min used: 27299.51 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9375 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Wearable!!!!! sensors! are!!!!!!!!!!! now!!! capable! of!!!!!!! estimating!!! number! of!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63651.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.5625 GB, allocated=14.8223 GB
-
-batch_outputs is  ['![](http://www.52pojie.co/images!crop!100x1!http://cdn!52pojie!top/e!d9!f2!f2!f2!f2!f2!f2!f2!f2!f2!f']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.8789 GB, allocated=14.8985 GB
-
-batch_outputs is  ['! Mobile!!!! Device!! Management! (MDM! )! systems!!! are!!!!!! !!! !! !!! !! !! !! !! !! !! !! !! !! !! !! !! !! !!']
-Max used: 48001.97 MB, Min used: 27299.51 MB
-max_capacity_prompts [1597, 3195]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9355 GB, allocated=14.8986 GB
-
-batch_outputs is  ['! Potential!!!! applications!! include!!!!!!!!!!! spin!!!!!!!!!!!!! injection!!! into!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 62885.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.9395 GB, allocated=14.9001 GB
-
-batch_outputs is  ['! The!!!! proximity!! of!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! super!!!!! conductivity!!!!!! !!can!!']
-Max used: 25483.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=14.9434 GB, allocated=14.753 GB
-
-batch_outputs is  ['![](https://raw!54b8d.net/labels?text=RoBERTa%2CB!54b8dERT%2CBERT&color=blue&fontSize=12)\nRo!54b8dBERT!54b8d, B!54b']
-Max used: 61933.51 MB, Min used: 27299.51 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3864, 7728]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9375 GB, allocated=14.899 GB
-
-batch_outputs is  ['! Some!!!! reasons!! for!!!!!!!!!!!!!!!!!! the!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 65083.50 MB, Min used: 27755.49 MB
-Memory freed:        reserved=15.9453 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Mu! ft! i!!! e! -!! Az! ma!!!!! Hind! (!!!!! radi!! All! hu!! an! hu! )!!!!!!!!!!! !!!!!!! !!!']
-Max used: 63755.49 MB, Min used: 27299.51 MB
-max_capacity_prompts [3974, 7949]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.7148 GB, allocated=14.8975 GB
-
-batch_outputs is  [' It!s!!! out! of!!!!!! fairness.\nIt!s!! !fair! to!!! !!those!!!!!!! !!who!! !!!are!!! !!!!!using!! !water! and!']
-Max used: 65061.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9434 GB, allocated=14.8976 GB
-
-batch_outputs is  [' Because!! he! wants!! to!!!! avoid!!!!!!!!!!! exposure!! to!!!!!!!!!!!!!!!!!!! second! hand!!!!!!!!!!! smoke!']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=16.0098 GB, allocated=14.8977 GB
-
-batch_outputs is  ['! Electricity! is!!! used!! in!!!!! !a!! huge! !and!!! !!growing! !number!! of!!! !!!applications! !including!!! !!light! !bulbs! !,!!!!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.899 GB
-
-batch_outputs is  [' 62! \n\nThe! text!! states!! that!!! "30!!! International!!! Players!,,! 62!!!!!!!!!!!!!!!!!!!!!!! underclass! men! and!']
-max_capacity_prompts [3975, 7950]
-Max used: 62885.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [1582, 3165]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9453 GB, allocated=14.7526 GB
-
-batch_outputs is  ['! Vice Admiral\n!! Based! on!! the!!!! information!!! provided! in!! the!!!!!!! text! about!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.9453 GB, allocated=14.8986 GB
-
-batch_outputs is  ['! Hosting!!!! Subscriber!!!! may!! not!!!!!!!!!!!!!!!!! use!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 61933.51 MB, Min used: 22973.49 MB
-max_capacity_prompts [1003, 2006]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9395 GB, allocated=14.8996 GB
-
-batch_outputs is  ["![](https://img .'</s> \n\nPhysics![](https://img .'</s> \n\nB![](https://img .'</s> \n\niology![](https://img .'</s> \n\nSocial![](https://img .'</s> \n\nSc![](https://img .'</s> \n\nnces![](https://"]
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.8978 GB
-
-batch_outputs is  [' Governor Rick! Scott!! cited!!!!!! privacy!! !!! !concern! !and! raised!!!! the!!!!!!!!!!!!!!!!!! possibility! !that!! taxpayers! would! be!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=14.9434 GB, allocated=14.718 GB
-
-batch_outputs is  [' 15!3\n\nThe! Buckeyes! won!! their! first!!!! game!! of!!!!! the!!!!! season! with!!! a!!! score!! of!!! 15!-!3.!\n\nTherefore,']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.9395 GB, allocated=14.8981 GB
-
-batch_outputs is  ['![](https://lh3.googleusercontent.com/-!wzgZJYXtLkE/W1!yfQ!n!aUj!aAe!aWv!aWv!aWv!aWv!aWv!aWv!a']
-Max used: 65061.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [1926, 3853]
-Memory freed:        reserved=15.9355 GB, allocated=14.8982 GB
-
-batch_outputs is  ['! An!! ALPHABETICAL!!! LIST! OF!!! THE!!! NAMES!! AND!!!!!!!!!!! PLACES!!!!!!!!!! OF!!!!!!!!!!!!!!']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [2478, 4957]
-max_capacity_prompts [3282, 6565]
-Memory freed:        reserved=15.5879 GB, allocated=14.777 GB
-
-batch_outputs is  [' Future! The!! meta! information!!! may!! be!!!!!!!!!!!! worth!!!!! verifying! such! as!!! the!!!!!! patient! s! gender! ,!!!!!!!!!']
-Max used: 65061.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.4141 GB, allocated=14.8228 GB
-
-batch_outputs is  ['! Cl!uth!a!-S!ou!th!l!a!nd\nNote: The! character!s!!!represent!!sp!ac!es!!!!!!t!o!m!a!k!!!t!h!e!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=14.9844 GB, allocated=14.8435 GB
-
-batch_outputs is  ['! The!! vacuum!!!!!!!!!!!!!!!!!!! processing!!!!! systems!! are!!! !!! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-max_capacity_prompts [1669, 3339]
-Memory freed:        reserved=15.9375 GB, allocated=14.8982 GB
-
-batch_outputs is  ['! 1766 ! The!! London!! Paving!!! and!!!!!! Lighting!!!!!! Act!! (!!!!!6!!!Geo!3!c!26)!! was!!!!!!!!']
-Max used: 63653.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [2184, 4369]
-max_capacity_prompts [3259, 6518]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9453 GB, allocated=14.7551 GB
-
-batch_outputs is  [' 30!223\nNote: The number seems! to!! have!!!!! been!!!! truncated! in! the! original! response! to! !"30"!223.! !!The!! correct! answer!! should!! be']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [2893, 5786]
-max_capacity_prompts [1272, 2545]
-Memory freed:        reserved=15.9395 GB, allocated=14.8991 GB
-
-batch_outputs is  [' 10$^{9}$\\,cm\nYou are!!! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !\n\nThe maximum! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=15.9434 GB, allocated=14.898 GB
-
-batch_outputs is  ['! The three!!!!!!!!!!! synthetic!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Memory freed:        reserved=14.9512 GB, allocated=14.7887 GB
-
-batch_outputs is  [' 21!! The!! massive!!!!!! star!!!-!!forming!!! regions!! were!!!!! studied!! !in!! this!!!! project!!.!\n\n21!!! massive!!!!!!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Max used: 63653.49 MB, Min used: 22973.49 MB
-Memory freed:        reserved=14.9805 GB, allocated=14.8428 GB
-
-batch_outputs is  [' The!authors!used!both!!simulated!and!!!!!real!!data!in!!!!!their!!experiments.!!For!!the!!station!!experiment!!,!they!!estimated!!!!a!!!!!fixed']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [1584, 3169]
-Memory freed:        reserved=14.9961 GB, allocated=14.7429 GB
-
-batch_outputs is  ['! 2013\n\nBased! on!! the!! information!!!!! provided! in!! the!!!!!!! text! !,!!!!!!!!!!!!!! Margaret!! Way!! started!!!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.8982 GB
-
-batch_outputs is  ['![](https://i.imgur.com!QZtjKlL.png) The![](https://i!imgur.com!QZtjKlL.png) high![](https://i!imgur!com!QZtj!KlL!png)![](https://']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.4883 GB, allocated=14.8308 GB
-
-batch_outputs is  [' The!main!topic!of!!the!!text!!is!the!political!and!!!!!social!!!situation!!!!!!in!!!!!!!!!Iraq!including!!the!formation!of!!!!the']
-Max used: 63653.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [2351, 4702]
-Memory freed:        reserved=14.9434 GB, allocated=14.7526 GB
-
-batch_outputs is  ['!VC-!10!Squad!ron![](https://en.wikipedia.org!wiki!File!%3AVC!-!1!0!G!-!1!5!Sa!ip!an!-!!1!9!4!4!-!1!1']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=15.6621 GB, allocated=14.8212 GB
-
-batch_outputs is  ['! 23 September 2017\n! 26! October 2017\nThe!! 2017!!!!! general!!!!!!! election! was!!!!!!!!!!! held!!!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [1444, 2888]
-max_capacity_prompts [3880, 7761]
-max_capacity_prompts [3709, 7419]
-max_capacity_prompts [3121, 6243]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9297 GB, allocated=14.7485 GB
-
-batch_outputs is  ['! Long Term Capital!!! Management! ! (LTCM! )! !!\n\nThe!! collapse! of!!!!!! Long! Term!!!!!!!!!!!! Capital! Management! (!!!!! LTCM! )!!! in']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [680, 1360]
-Memory freed:        reserved=15.9375 GB, allocated=14.8978 GB
-
-batch_outputs is  ['![](https://i.imgur.com!QKbXhjL.png) Yes,![](https://i!imgur.com!QKbXhjL.png) individual![](https://i!imgur!com!QKbXhjL.png)![](https://i']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Memory freed:        reserved=15.7988 GB, allocated=14.8952 GB
-
-batch_outputs is  [' The!baseline!is!!used!!as!!!!a!!reference!!for!the!mid!point!!of!!!!the!!fire!!wall!!for!!!!!!!!!the!!!!!!!!!']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9414 GB, allocated=14.899 GB
-
-batch_outputs is  [' 142![](https://latex!{frac{5}{6}}) μB![](https://latex!{frac{5}{6}}) μB![](https://latex!{frac{5}{6}}) μB![](https://latex!{frac{5}{6']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-Memory freed:        reserved=15.4961 GB, allocated=14.8905 GB
-
-batch_outputs is  ['!The!!potential!!of!!!!!S!N!N!s!!in!!!!!!!!model!ing!!!!!!!!!!!!!!!!!!!!!!!the!!!!!!']
-Max used: 63653.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=14.9844 GB, allocated=14.8384 GB
-
-batch_outputs is  ['!The!!b!!g!g!e!r!!!!!!!t!h!e!!!!!!!!!!!!!!!!!!!!!!!!!re!c!e!p!t!t!i']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [1876, 3753]
-Memory freed:        reserved=14.9238 GB, allocated=14.701 GB
-
-batch_outputs is  ['! The!!! anisotropic!!!!!!!!!!!! order!!! parameter! m!!! follows!!! a!!!!!!!!!!!!! !Gaussian!!!!!!!!!!!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=15.9375 GB, allocated=14.8982 GB
-
-batch_outputs is  [' FOWC![](http://www.vnnetwork![](http://net![](http://.com/news_images/2016/March/030716_Friends![](http://of![](http://Whalebone![](http://Cove![](http://_logo']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [2408, 4816]
-max_capacity_prompts [2480, 4960]
-max_capacity_prompts [2889, 5778]
-max_capacity_prompts [2492, 4985]
-Memory freed:        reserved=14.9512 GB, allocated=14.7789 GB
-
-batch_outputs is  [' Nothing! Can give! A!! Solid!!!! Proof! Of!!!!! The!! Existence! Of!!! Heaven!! And!!!!! Hell,!! Yet! Nothing!! Can!!!!! Disprove!! It! Either! So']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-Memory freed:        reserved=18.7129 GB, allocated=14.8271 GB
-
-batch_outputs is  [' The!interlayer!!!!Berry!!!connection!!p!olar!iz!ability!has!!!a!!nov!el!!!!!!band!!!!!!!ge!ometric!!!!!!!!!!!!!!']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9707 GB, allocated=14.8248 GB
-
-batch_outputs is  ['![](https://tse4.mm.bing.net/th?id!OIP!!_!w!-Cv!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.2109 GB, allocated=14.8317 GB
-
-batch_outputs is  ['![](http://i.imgur.com!//XxS6Q.png)\nThe new![](http://i.imgur.com!//XxS6Q.png) Iraqi![](http://i![](http://i![](http://i![](http://i![](http://i![](http://']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-Memory freed:        reserved=14.9102 GB, allocated=14.8245 GB
-
-batch_outputs is  ['! [2! *2 meters](https://www.googleapis! com/search! ?q=2! *2+square! meters+image) The!! recommended!!!!!!!!!!!!!!!!! space!! for!!!!! using!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [1600, 3200]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9434 GB, allocated=14.7531 GB
-
-batch_outputs is  [' 85!61%![](https://tse4.mm.bing.net/th?id!OIP!zZvJjwWQcGqfXxPnKd9bE!w&pid!ImgDet!r&h=240)!']
-Memory freed:        reserved=15.8633 GB, allocated=14.8986 GB
-
-batch_outputs is  ['![](http://ecx!image.ap!n!cdn!images!-images!-s!b!-web!-images!-ap!n!cdn!-e3!7!d!1!4!8!8!8!1!4!1!4!1!']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Max used: 25555.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3750, 7500]
-max_capacity_prompts [3508, 7017]
-Memory freed:        reserved=15.9375 GB, allocated=14.8988 GB
-
-batch_outputs is  ['! power! law!! function\nThe!!!!! tail!!!!!!! distributions!! of!!!!!!!!!!!!!!!!!!! price!!! returns!! follow!!!!!!! power!-!']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [1865, 3730]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.459 GB, allocated=14.8953 GB
-
-batch_outputs is  ['![](https://www.dropbox!com/s!a1xjw6v911ta4?dl=0&size=m)Yes,![](https://www.dropbox!com!s!a1xjw6v911ta4?dl=0&size=s']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=15.1426 GB, allocated=14.8499 GB
-
-batch_outputs is  [" The!time!!required!to!update!!!!the!!robot!'s!!belief!does!not!increase!!with!!!!the!!!complex!ity!of!!!!!!!!!!the!!!!!!!"]
-Max used: 65163.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9434 GB, allocated=14.7786 GB
-
-batch_outputs is  [" \\( f!'\\left(x!right!)=\\begin!{cases!} \\frac!{6!x^2!cos!{\\left!x^2!right!}+sin!{\\left!x^2!!right!}}{3!sqrt!3!x^2!"]
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9414 GB, allocated=14.8985 GB
-
-batch_outputs is  ['![](https://i.imgur.com!QZuLzXG.png)\n\nThe![](!https://i!imgur!com!QZuLzXG!png) answer![](https://i!imgur!com!QZuLzXG!png) is!']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-max_capacity_prompts [1413, 2827]
-Memory freed:        reserved=15.9434 GB, allocated=14.8988 GB
-
-batch_outputs is  ['![](https://cdn.mathpix!com/cropped!2024_05_03!f800c4a5e2c5d9b06c21g-10.jpg?height=!521&width=!1024&']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=15.0098 GB, allocated=14.7473 GB
-
-batch_outputs is  ['![](https://i.stack.imgur.com!VZKlS.png) John F. Kennedy![](https://i.stack!imgur.com!VZKlS.png) Profiles![](https://i!imgur!com!VZKlS.png) Courage![](https://i!']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-max_capacity_prompts [3433, 6867]
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  [' 90![](https://latex.codec![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex![](https://latex']
-Memory freed:        reserved=15.9395 GB, allocated=14.8986 GB
-
-batch_outputs is  [' A!arger!specific!!heat!!ratio!!speed!ups!!the!!average!!!motion!of!!!!the!!!!!bubble!.\nThe!bubble!!!!!!with!!!!!!!!!small!specific!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-Max used: 65059.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [1658, 3317]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3466, 6933]
-Memory freed:        reserved=15.1328 GB, allocated=14.8477 GB
-
-batch_outputs is  ['! The!!! Te!v!a!r!o!n!!!!!!!!!!! Collider!!!!! Run!! II!!! started!!!!!! in!!!!!!!!!! March! !2!']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [984, 1969]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9434 GB, allocated=14.7548 GB
-
-batch_outputs is  ['! Mc!Pherson! County! is!!!!! located!!! in!!!!!!! the!!!!!! U!.S!.!!!! state! of!!!!!!!!!!! Kansas!.\n! Mc!Pherson']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [675, 1350]
-max_capacity_prompts [3559, 7119]
-Memory freed:        reserved=15.1328 GB, allocated=14.8491 GB
-
-batch_outputs is  [' Using!binary!!variables!!!!reduces!!!!!the!!computational!!complex!ity!and!im!pro!ves!!!!!the!!!!!!!performance!of!!!!!!the!!!algorithm!']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-Memory freed:        reserved=15.8301 GB, allocated=14.9015 GB
-
-batch_outputs is  ['! Legacies of Losing in!! American!!!! Politics,!! with!!!!!!!!!!!!!!! Nicole!!! Mellow(! University! Press! of! Chicago! Fall! 2017) !!\n! Expanded!!!!']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=14.9453 GB, allocated=14.717 GB
-
-batch_outputs is  [' Njoroge! has!!! four!!!!!!!!!!! brothers! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9258 GB, allocated=14.7008 GB
-
-batch_outputs is  [' $O (!t, L_{\\parallel} ; S!_!_\\Delta!)$! =!!! $L!_{\\parallel}^{-\\beta!/[!\\nu! (!!!1!+! \\Delta!)]} \\til!f!_O! (!!!']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Exegetical,!!! Theological! and!!!!! Homilet!ical\nExegetical,! Theological! and!! Homilet!ical\nExegetical,! Theological! and!!!!!!!!!!!!!!']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [1463, 2927]
-max_capacity_prompts [2851, 5703]
-Memory freed:        reserved=16.9277 GB, allocated=14.8872 GB
-
-batch_outputs is  ['! The!! paper!!!!! aims! to!!! solve!! nonlinear!!!!!!! system!! vibration!! problems! ! by! computing!!!!! transient!!! responses! of!!!!!!!!!!!!!']
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.898 GB
-
-batch_outputs is  ['! watt\n! The! SI!! unit!! of!!!!!! power! is!!!!! the!!!!!!!!!!!!! watt,! ! which!! is!!!!!!!!!!!!!!!!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [1662, 3324]
-max_capacity_prompts [3591, 7183]
-Memory freed:        reserved=14.9336 GB, allocated=14.7491 GB
-
-batch_outputs is  ['!KSTP!!switch!to!!sports!radio!!on!!!February!!15!,,!2010!!!\n\nKSTP switched!to!!sports!radio!!!on!!!!February!15!,,!2010']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-max_capacity_prompts [1601, 3202]
-Memory freed:        reserved=14.9824 GB, allocated=14.8319 GB
-
-batch_outputs is  [' Users!can!go!to!!the!!!!Que!c!Py!thon!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63653.49 MB, Min used: 22973.49 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=16.9395 GB, allocated=14.9067 GB
-
-batch_outputs is  ['! A!! media!!!!!!!!!!!!!!!!! application!!!!!!!!!!!!!!!!! may!!!!! use!! a!!!!!!!!! content!!!!']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=14.9434 GB, allocated=14.7531 GB
-
-batch_outputs is  ['![](https://raw!54b8d.net/2023/09/VarDial-2023-Dialect-Identification!54b8d.png)\nThe!54b8d.net link!54b8d is!54b8d a']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=14.9434 GB, allocated=14.7549 GB
-
-batch_outputs is  ['! The first!! white!!!!!!!!!!!!!!!!!!! settlement! in!!!!!!!!!!!!!!!!!!!!!!! Mc!Pherson! County! was!!!! Fuller']
-max_capacity_prompts [920, 1840]
-Max used: 64779.52 MB, Min used: 27639.50 MB
-Memory freed:        reserved=15.9473 GB, allocated=14.8986 GB
-
-batch_outputs is  [' We say! a C^2!!!!! sub!super!-solution! of!! (\\ref{eq1!})!! is!!!!!!!!!!!!!!!!! !!!! !! !!! !! !! !!']
-Max used: 65163.50 MB, Min used: 27639.50 MB
-max_capacity_prompts [2606, 5212]
-max_capacity_prompts [3974, 7949]
-Memory freed:        reserved=14.9395 GB, allocated=14.7136 GB
-
-batch_outputs is  [' Infall! rate!! is!!!!! !2!-!!!5!!! times!!!!!!!!! smaller! and!!!! gas!!!!!!!!!!!!!!!!!!! density!!']
-Memory freed:        reserved=15.9453 GB, allocated=14.8986 GB
-
-batch_outputs is  ['! The!! relationships!! between!!!!!!!!!!!!!!!!!! !! ! !! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !']
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Max used: 65059.50 MB, Min used: 27299.51 MB
-max_capacity_prompts [1269, 2539]
-max_capacity_prompts [2998, 5996]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [2998, 5996]
-Memory freed:        reserved=14.9004 GB, allocated=14.827 GB
-
-batch_outputs is  ['! Sustained!! viral!!!!!!! gene!!!!!!!!!!!!! delivery!!!!! through!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [861, 1723]
-Memory freed:        reserved=15.9355 GB, allocated=14.8986 GB
-
-batch_outputs is  [' The!real!adv!antage!!is!!!one!of!!!!!flexibility!!\nThe!main!!adv!!antage!!!!of!!!a!!!!!!!!!!!!horizontal!!!!!!!!']
-Max used: 25555.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [1441, 2883]
-Memory freed:        reserved=14.9258 GB, allocated=14.7434 GB
-
-batch_outputs is  ['! romance! women! fiction\nBased! on!! the!!!!! information!!!! provided! in!! the!!!!!!! text! about!!!!!!!!!!!!!!!!!!!!!!!! Margaret']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.1484 GB, allocated=14.8335 GB
-
-batch_outputs is  ['![](https://imgcli.com/clip/20230426/1682601667-900x213.png) The normalized![](https://img![](https://img![](https://img![](https://img![](https']
-Max used: 64779.52 MB, Min used: 22969.49 MB
-Memory freed:        reserved=15.9414 GB, allocated=14.8986 GB
-
-batch_outputs is  ['![](https://latex!.\\( Aff!ected!!!!f!et!u!ses!d!e!v!el!op!se! !!!!!se!ve!r!e! !!an!e!m!i!a!!!!t']
-Max used: 63653.49 MB, Min used: 20597.49 MB
-Memory freed:        reserved=15.1328 GB, allocated=14.8335 GB
-
-batch_outputs is  ['![](https://imgcli.com/clip/20230426/1682601667-900x213.png) The normalized![](https://img![](https://img![](https://img![](https://img![](https']
-Memory freed:        reserved=14.9336 GB, allocated=14.7106 GB
-
-batch_outputs is  ['!FC!!!!!Ban!ants\nUrartu\nUrartu\nUrartu\nUrartu\n\nThe!!club!was!!!!!!known!!!as!!FC!!!!!!!!!Ban!ants!before!!!']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [1933, 3866]
-Memory freed:        reserved=14.9316 GB, allocated=14.7484 GB
-
-batch_outputs is  ["! Jacob!!!!! C!;! Landau\nJacob!!! C!;!! Landau! was!!!!!!!!! Brooks!ley! Elizabeth! 's!! first! husband!.\nYou are! correct! in!!! quoting!!!!!"]
-max_capacity_prompts [3975, 7950]
-Max used: 25555.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [2474, 4948]
-max_capacity_prompts [2574, 5148]
-Memory freed:        reserved=15.6973 GB, allocated=14.7746 GB
-
-batch_outputs is  ['! Del! Bigtree! and!!!!! !!his!!! team! at!!!!!!!!! IC!!AN! !compiled!! !the!! !88!-page!! !letter! !!to!! !!!!the']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-max_capacity_prompts [3509, 7018]
-max_capacity_prompts [2184, 4368]
-Memory freed:        reserved=15.9473 GB, allocated=14.898 GB
-
-batch_outputs is  ['! The! text!! does!!! not!!! explicitly!! state!!!!! what!!!!!!!!!!!!!!!!!!!! Toby!!!!!! Schindelbeck!! observes!!! about!!']
-max_capacity_prompts [3975, 7950]
-Max used: 63755.49 MB, Min used: 19145.49 MB
-Memory freed:        reserved=15.4102 GB, allocated=14.8228 GB
-
-batch_outputs is  [' In! October 2001,!! English!!!! replaced!!!!!!! Jenny!! Shipley! as!! the!! leader! of!!!!!!! the!!!!!!!!!!! National!! Party! (']
-Max used: 63653.49 MB, Min used: 20597.49 MB
-Memory freed:        reserved=14.9121 GB, allocated=14.8261 GB
-
-batch_outputs is  ['! The! study!! concluded!!! that!!!!!!! fruit!! consumption!!!!!!!!!!!!!!!!!! !!may!! provide!!!! a!!!!!! protective!!!!! effect']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [3951, 7903]
-Memory freed:        reserved=14.959 GB, allocated=14.7884 GB
-
-batch_outputs is  ['![](https://www.dropbox!com!/s!apx!9!h!16!1!16!1!16!1!16!1!16!1!16!1!16!1!16!1!16!1']
-Memory freed:        reserved=15.1504 GB, allocated=14.8499 GB
-
-batch_outputs is  ['![](https://cdn.mathpix!com/cropped!2024_05_01!f8!104248614448599.jpg?height=!321&width=!517&top!left!crop!fit']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-Max used: 64779.52 MB, Min used: 22969.49 MB
-max_capacity_prompts [1048, 2096]
-Memory freed:        reserved=15.9434 GB, allocated=14.8986 GB
-
-batch_outputs is  [' No! You!! are! not!!!!!! allowed! to!!!!!!!!! sell!!! or!!!!!! modify!!!!! the!!!!!!!!!!!!!!!!!!!!']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=14.9473 GB, allocated=14.7204 GB
-
-batch_outputs is  ['! 1964 !! You may have noticed!  The year of!!!  publication!  is! !  explicitly!  stated!  in!  the!  text! !  as! !  "It!  was! !! !!']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-Memory freed:        reserved=16.418 GB, allocated=14.9024 GB
-
-batch_outputs is  [' The!main!!method!!used!!in!!!!!the!!!!!!research!is!an!!!!uns!upervised!!method!!!!!!!!!based!!on!!!!!!!!!!!']
-Max used: 25907.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3181, 6362]
-Memory freed:        reserved=15.9375 GB, allocated=14.8988 GB
-
-batch_outputs is  ['! Smart! phones!!!! are!!!!!!!!!!!!!!!!!! more!!!!!!!!! compact! and!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63653.49 MB, Min used: 20597.49 MB
-max_capacity_prompts [3974, 7949]
-Memory freed:        reserved=15.9453 GB, allocated=14.8987 GB
-
-batch_outputs is  ['! The!! scoring!!!!! engine!!!!! generates!! a!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-max_capacity_prompts [861, 1722]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=14.9863 GB, allocated=14.8402 GB
-
-batch_outputs is  [' The!relationship!between!!the!!maximum!!velocity!and!!!!!the!!!!am!plitude!of!!!!!!!the!!blob!or!!!!!!!!!!!de!pletion!!is!!!']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-Memory freed:        reserved=15.9531 GB, allocated=14.8966 GB
-
-batch_outputs is  ['! The two!!!!!! ground! states!!!! observed! for!!!!!!!!!!!!!!!!!!!!!!!!! indeno[1,2-a!]-!fluore! ne! on!!!!']
-Max used: 64779.52 MB, Min used: 22969.49 MB
-Memory freed:        reserved=14.9355 GB, allocated=14.7106 GB
-
-batch_outputs is  ['! 2013–2014\n! 2013–2014\n! 2013–2014\n! 2013–2014\n2013–2014\n! 20']
-Max used: 65083.50 MB, Min used: 19143.49 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.8978 GB
-
-batch_outputs is  ['! The!!! datasets!! used!!!!! in!!!!!!! this!!!!!!!!!!!!!!!!!!!!!!! community! for!!!!!!!!!!!! research! are']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.9531 GB, allocated=14.8986 GB
-
-batch_outputs is  [' From the! simplified!!!!! form! of!!!!!! the!!!!!!!!!!!!!!!!!! vacuum!!!!! Einstein!!!!!! equations! as!!!!!!!!!!!']
-Max used: 25907.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [2673, 5346]
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=16.4648 GB, allocated=14.8298 GB
-
-batch_outputs is  [' The! main!! focus!! of!!!! the!!!!!!!!!!!!!!! research!!! paper! is!! to!!!! determine!!! the!!!!!!! nuclear!!!!!!!!']
-Max used: 64779.52 MB, Min used: 22969.49 MB
-Memory freed:        reserved=15.9355 GB, allocated=14.8992 GB
-
-batch_outputs is  [' The! sticking!! point! ! is!!! about!! how!! much!!!!!!! spending!! to!!!!!! cut! !. ! However! !,!!!!! one! ! of!!! the!!! main!!']
-Max used: 63653.49 MB, Min used: 20597.49 MB
-max_capacity_prompts [3975, 7950]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.9453 GB, allocated=14.898 GB
-
-batch_outputs is  ['! Dend! !t! !ri! !c! !!p! !n! !t! !e! !s! !r! !!c! !t! !e! !s! !!! !h! !!! !a! !!! !! !!']
-Max used: 65163.50 MB, Min used: 20597.49 MB
-max_capacity_prompts [3507, 7014]
-Memory freed:        reserved=16.0117 GB, allocated=14.8984 GB
-
-batch_outputs is  [' The!research!!opportunity!!!is!!studying!!!!!the!!effects!of!!!Brazil!ian!J!u!j!itsu!and!!!!!psycho!therapy!on!!!help!ing!!!!!']
-Max used: 65059.50 MB, Min used: 27299.51 MB
-Memory freed:        reserved=15.9512 GB, allocated=14.897 GB
-
-batch_outputs is  ['! The water!!!!! depth!! in!!!!! the!!!!!!!!! Greater! Ek!of!isk!!!!!! Area! is!! 7!0-!!7!5!!!!!!!!!']
-Max used: 25907.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [1929, 3858]
-max_capacity_prompts [3975, 7950]
-Memory freed:        reserved=15.1758 GB, allocated=14.8504 GB
-
-batch_outputs is  [' γ! h\nThe!! rationality!!!!!! coefficient!! used! in!! the!!!!!!!!!!!!! observation!!!!!!!!! model! is! ! γ! h.! ! ! ! ! ! ! ! !']
-Max used: 64779.52 MB, Min used: 22215.50 MB
-Memory freed:        reserved=15.6934 GB, allocated=14.7751 GB
-
-batch_outputs is  ['! They! were!!!!! not!! even!!!!!!!!!!!!!!!!!!! !!!tr!i!a!l!e!d!!!!!!!against!!g!u!n!e!']
-Max used: 25907.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [1271, 2542]
-Memory freed:        reserved=15.9355 GB, allocated=14.8988 GB
-
-batch_outputs is  ['! The! Director! of!!!!! Town!! and!!! Country!! Planning! is!!!!!! responsible!! for!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 63653.49 MB, Min used: 20093.50 MB
-max_capacity_prompts [1948, 3897]
-Memory freed:        reserved=14.9238 GB, allocated=14.7435 GB
-
-batch_outputs is  ['! Margaret! Way! was!!!!!! born! in!!!!!!!!!!! Brisbane! and!!!! died!!! in!!!!!!!!!!!!!!!!!!!!!!!!!!']
-Max used: 25907.49 MB, Min used: 16693.32 MB
-max_capacity_prompts [3747, 7495]
-Memory freed:        reserved=15.6211 GB, allocated=14.7794 GB
-
-batch_outputs is  [' The!framework!!captures!!!!!!!!!!!the!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reduced!!order!d!ynamics!!by!employ!']
-Max used: 63653.49 MB, Min used: 20093.50 MB
-max_capacity_prompts [3746, 7493]
-Memory freed:        reserved=15.6113 GB, allocated=14.8967 GB
-
-batch_outputs is  [' William! \nNote:! is!! added! for!! clarity! in! the! original! instruction! to! indicate! the! end! of! the! answer.!\n\nRokeby, William (!!!! brother! of!!!!!!!!!!! !']
-Max used: 64779.52 MB, Min used: 22215.50 MB
-Memory freed:        reserved=15.5625 GB, allocated=14.896 GB
-
-batch_outputs is  [' L = 8 and! L = 14\nThe text! mentions!! that!! the!!!!! benchmark! was!!!! done! on!!! chains!!! of!!!!!! sizes! L! =! 8! and!! L']
-Max used: 25907.49 MB, Min used: 16693.32 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['South West Ultras']
+max_capacity_prompts [288, 576]
+Max used: 31678.30 MB, Min used: 31678.30 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['More than 120 novels']
+Max used: 53564.32 MB, Min used: 53564.32 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['5']
+Max used: 60515.19 MB, Min used: 60515.19 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Peter Denning']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['14,520']
+Max used: 60941.52 MB, Min used: 60941.52 MB
+Max used: 60941.52 MB, Min used: 60941.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['In the early levels, you should keep deploying and harvesting your bases.']
+Max used: 60941.52 MB, Min used: 60941.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Lasa, Gitastrophe, Shadoks']
+Max used: 60941.52 MB, Min used: 60515.19 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Thalassemias are classified according to the globin that is affected, into alpha thalassemia and beta thalassemia.']
+Max used: 39695.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['No, the ISR is neither necessary nor sufficient for transgene reactivation.']
+Max used: 38265.51 MB, Min used: 31678.30 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The proposed approach in this research paper is to approximate the posterior distribution of a state-space model with an isotropic Gaussian distribution, leading to an adaptable step-size least mean squares (LMS) algorithm.']
+Max used: 53564.32 MB, Min used: 53257.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['McPherson']
+Max used: 60339.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['1860']
+Max used: 60575.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Yes.']
+Max used: 53564.32 MB, Min used: 46589.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The court in In re Ferguson concluded that the method claims did not transform a substrate, and thus did not meet the transformation prong of the Bilski test.']
+Max used: 60941.52 MB, Min used: 39703.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["Justice Kennedy acknowledged that the Internet had significantly altered the economic landscape since the Quill decision, harming states' ability to collect sales taxes and suggesting that the Court should revisit the physical presence standard established in Quill."]
+Max used: 60941.52 MB, Min used: 39703.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Low temperature scanning tunneling microscopy (STM) and scanning tunneling spectroscopy (STS) were used to study the quantum dot structures.']
+Max used: 38273.51 MB, Min used: 31678.30 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The conduction gap is strongly dependent on the strain direction. Specifically, for tensile strain, the conduction gap peaks at θ = 0° and 90°, while for compressive strain, it peaks at θ = 45° (for both tensile and compressive strains, �']
+Max used: 60941.52 MB, Min used: 53301.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['\\[\n\\Gamma_e = \\frac{e^2}{4\\pi\\epsilon_0\\epsilon_e a_{ws} k_B T_e}\n\\]\n\nGiven in the text as:\n\\[\n\\Gamma_e = \\frac{e^2}{4\\pi\\epsilon_0\\epsilon_e a']
+Max used: 60941.52 MB, Min used: 53301.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['1. 使用安装包安装Ganache。\n2. 打开程序后，会显示默认界面，可以在此界面查看账户信息、进行交易等操作。\n3. 点击“设置”调整Ganache的相关参数，如网络端口等，然后点击“应用”保存设置，']
+Max used: 60575.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['7 March 2023']
+Max used: 60941.52 MB, Min used: 53301.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Environmental fluctuation, uncertainty, and the details of the task the organisms need to accomplish control the reliance on plasticity.']
+Max used: 60941.52 MB, Min used: 39703.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['As the probability of environmental transition (p_tr) increases, the learning rate (η_p) decreases. Specifically, when keeping other factors constant, the learning rate rapidly rises as the transition probability is increased from 0, reaches a peak, and then slowly declines to nearly 0 as the transition probability approaches 1.']
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Symptoms of K1 deficiency include anemia, bruising, nosebleeds, and bleeding of the gums in both sexes, and heavy menstrual bleeding in women.']
+Max used: 60941.52 MB, Min used: 39703.52 MB
+Max used: 53564.32 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['By pressing ‘SKIP’.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The parameter space V is divided into three subsets: V+, V0, and V-.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['An ICD (Implantable Cardioverter Defibrillator) is used to deliver an electric shock to the heart to restore a normal heartbeat in case of certain life-threatening arrhythmias.']
+Max used: 38275.51 MB, Min used: 31678.30 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['4']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Ngotho loses his job and the family is forced to move.']
+max_capacity_prompts [288, 576]
+Max used: 64545.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The advantage of decorrelating the data before running the PLS algorithm is that it leads to better performance in terms of prediction accuracy, as demonstrated by the closer alignment of the Pearson correlation between the predicted and true values in the right plot of Figure 2.']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['When building the fuselage sides, the top longeron bows up, forming a "banana" shape, which is not acceptable when using pre-formed fiberglass parts.']
+Max used: 64909.52 MB, Min used: 39703.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ["The club's headquarters are located on Jivani Street 2 of the Malatia-Sebastia District, Yerevan."]
+Max used: 64909.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['172']
+Max used: 64985.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['December 1928']
+Max used: 64909.52 MB, Min used: 39703.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['This study focuses on ultracold neutral plasmas that form via kinetic rate processes from state-selected Rydberg gases, particularly emphasizing molecular ultracold plasmas.']
+Max used: 60941.52 MB, Min used: 39101.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['48V']
+Max used: 64909.52 MB, Min used: 39101.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['It is important for the sides of the fuselage to be sloped (tumbled home) because it creates a conical shape that affects the overall aerodynamics and structural integrity of the aircraft. This slope introduces a twist in the sides that, when combined with the flat top longeron, results in an elliptical cross']
+Max used: 38275.51 MB, Min used: 31678.30 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['C-GDBN']
+max_capacity_prompts [288, 576]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['June 1, 1999']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Boeing C-17 and C-295, IAI/CASA C295, Airbus Defence and Space A400M Atlas, and Airbus A330 MRTT. However, the text does not explicitly mention all these aircraft in sequence, and the primary focus is on the']
+Max used: 64909.52 MB, Min used: 39101.52 MB
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['NFPA and FPSA greatly outperform GMRES and DSA in both runtime and iteration counts across all cases. As the problems approach the Fokker-Planck limit, the runtimes and iteration counts for NFPA and FPSA decrease significantly compared to GMRES and DSA.']
+Max used: 64909.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Wearable sensors are now capable of estimating physical activity levels and physiological outcomes (such as heart rate and skin conductance) of older adults.']
+Max used: 60957.52 MB, Min used: 39101.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Screen damage caused by sunlight exposure or other strong light sources is not covered by the warranty.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Mobile device management (MDM) is usually defined as "supporting centralized control of an organization\'s mobile devices and the apps and data on those devices." However, based on the text provided, it is described as "supporting centralized control of an organization\'s mobile devices, including applying and enforcing pre-defined configuration settings."']
+Max used: 64985.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['RoBERTa, BERT, XLM-RoBERTa']
+Max used: 64985.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Potential applications of ferromagnetic semiconductors include spin injection into non-magnetic semiconductors, electrical manipulation of carrier-induced magnetism, and the fabrication of nanodevices such as memory dots and channels for spin injection.']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Mufti-e-Azam-e-Hind received Khilafat in the Qaderi, Chishti, Naqshbandi, Suhrawardi, and Madaari Orders.']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The proximity of superconductivity can induce pairing in quantum dots, which can suppress the Kondo effect if the superconducting energy gap \\(2\\Delta\\) is larger than the relevant energy scales involved in the Kondo effect. Conversely, it can also enhance the Kondo effect in certain regimes. Specifically, in the']
+Max used: 64909.52 MB, Min used: 39101.52 MB
+Max used: 38279.51 MB, Min used: 31678.30 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['It seemed to reflect fairness by ensuring that those using more water paid for it.']
+Max used: 60957.52 MB, Min used: 39101.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Because he wants to balance the financial costs with his own expenses.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Some reasons for the lack of data sharing in archaeobotany include technological limitations, resistance from some archaeologists to expose their data to scrutiny, concerns about the potential loss of academic advantage, and the time-consuming nature of preparing data for public release. Additionally, there may be issues related to commercial confidentiality and the complexity of data']
+max_capacity_prompts [288, 576]
+Max used: 64909.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['62']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Electricity is used in everyday life for various purposes including lighting, heating, cooling, powering electronic devices, communication, transportation, and more.']
+Max used: 38281.51 MB, Min used: 31678.30 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["Hosting Subscriber may not use Broadjam's servers for illegal activities, excessive loading, spamming, or any actions that could overload Broadjam's network or servers. Specifically, Hosting Subscriber may not:\n- Use the servers for spamming.\n- Overload Broadjam's DNS or servers.\n- Engage in activities that could"]
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Governor Rick Scott cited privacy concerns, expressed skepticism about the effectiveness of the monitoring program, and raised the possibility that taxpayers would be left with a $500,000 annual bill to operate it.']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Mary told the disciples that she had seen the Lord and that he had said these things to her.']
+Max used: 60957.52 MB, Min used: 35047.53 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Vice Admiral']
+Max used: 38281.51 MB, Min used: 31678.30 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['15–3']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Physics, biology, social sciences, finance, neuroscience.']
+Max used: 38281.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Max used: 64909.52 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Wallace']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['An ALPHABETICAL LIST OF THE NAMES AND PLACES OF ABODE OF THE MERCHANTS, MANUFACTURERS, AND OTHER EMINENT PERSONS IN AND NEAR LONDON AND WESTMINSTER, WITH THE NUMBERS AFFIXED TO EACH HOUSE.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['1766']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ["Future meta-information to verify, such as patient's gender, age, and more types of medical records, and the efficacy of the meta-information in non-Japanese settings."]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['30,223']
+Max used: 60957.52 MB, Min used: 35047.53 MB
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['2013']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The vacuum processing system consists of multiple vacuum processing apparatuses arranged in parallel, with vacuum loading arms, vacuum loaders, and vacuum unloaders forming a T-shaped configuration. The vacuum processing chambers are symmetrically arranged with respect to the central axis, and two vacuum processing chambers are symmetrically placed on one side of the locking mechanism']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['vitamins K3, K4, and K5']
+Max used: 38281.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['20$^{+31}_{-14}$ km']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The main topic of the text is the political and social situation in Iraq, including government formation, violence and protests, and the role of women in media.']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['23 September 2017']
+max_capacity_prompts [288, 576]
+Max used: 64909.52 MB, Min used: 35195.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The high resolution becomes a bit less on what we focus on at dawn or dusk.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['21']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The authors used both simulated and real data in their experiments. Specifically, they used simulated data for a stationary scenario and real data from a wireless MISO channel for a tracking scenario.']
+Max used: 60957.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['VC-10 Squadron']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Long Term Capital Management (LTCM)']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4043 GB
+
+batch_outputs is  ['The anisotropic order parameter \\( m \\) follows the behavior \\( m \\sim t^{1/2} \\) following a quench to the critical point.']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Yes.']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The bigger the receptive field size, the more successful the completion of shapes with bigger gaps.']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['1425 $\\mu_B$']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['to appoint a blue ribbon commission to conduct the research and develop the management plan']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The study demonstrates that SNNs could serve as promising tools for modeling and understanding the visual system, both in terms of their ability to achieve high similarity scores with neural representations and their potential to reveal insights into the computational principles underlying visual processing in both macaques and mice. Future work could further explore the full potential of']
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['At least 2 meters by 2 meters.']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Max used: 64909.52 MB, Min used: 35195.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The baseline is used as a reference for laying out the fuselage stations and ensuring accurate dimensions for the side panels.']
+Max used: 60957.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Nothing can give a solid proof of heaven and hell, and nothing can disprove it either.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Deputy Prime Minister and Minister of Finance']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['3-D printing and software development.']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The interlayer Berry connection polarizability gives rise to a novel intrinsic Hall response with a band geometric origin in momentum space, which is crucial for the crossed nonlinear dynamical Hall effect observed in twisted bilayers. Its momentum space curl is a key factor in determining the intrinsic Hall conductivity.']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['power-law functions']
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ["provides cover for the war and allows supporters of the illegal war to point to it and insist/slur that things aren't so bad!"]
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Max used: 60957.52 MB, Min used: 35047.53 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['85.61%']
+max_capacity_prompts [288, 576]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['BC does not leave Boston according to the text provided.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The PLM with decimation leads to rather cleaner results compared to other techniques. It outperforms the PLM with $l_2$-regularization and a mean-field approach in terms of network reconstruction accuracy, especially at lower sample sizes. Specifically, for $M=25$, the PLM with dec']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Yes']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ["\\[\nf'(x) = \n\\begin{cases} \n\\frac{6x^2\\sqrt[3]{x}}{3x^{2/3}}, & \\text{if } x \\neq 0 \\\\ \n0, & \\text{if } x = 0 \n\\"]
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["The main advantage of the proposed method in terms of computation time is that the time required to update the robot's belief does not increase with the complexity of the environment."]
+Max used: 60957.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The recommended daily intake of vitamin K for adult women is 90 μg and for adult men is 120 μg. However, as of the latest update provided in the text, the current daily values for labeling in the U.S. are 120 μg for both adult women and men']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Brooksley Born received the John F. Kennedy Profile in Courage Award in 2009.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["In the shock compression stage (t < 0.03), the specific-heat ratio has little effect on the average motion of the bubble. After the shock wave passes through the bubble (t > 0.03), a larger specific-heat ratio accelerates the bubble's average motion."]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The benefits of using binary variables in the SLAS formulation include reducing the computational complexity of the problem, allowing for faster solution times, and enabling the use of optimization warm start techniques and lazy constraints, which further enhance computational efficiency.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Exegetical, Theological, Homiletical']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Legacies of Losing in American Politics, with Nicole Mellow (University of Chicago Press, Fall 2017)']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The Tevatron Collider Run II started in March 2002 and is expected to continue until the end of this decade.']
+Max used: 60957.52 MB, Min used: 35047.53 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['McPherson County is located in the U.S. state of Kansas.']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['February 15, 2010']
+max_capacity_prompts [288, 576]
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['Four']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['watt']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The paper aims to solve nonlinear system vibration problems by developing an efficient generalized pole-residue method based on Volterra series for computing transient responses under arbitrary irregular excitations.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Spanish BERT']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4043 GB
+
+batch_outputs is  ['$O (t, L_{\\parallel}, S_\\Delta) = L_{\\parallel}^{-\\beta/[\\nu(\\Delta)]} \\tilde{f}_O (t/L_{\\parallel}^z, S_\\Delta)$\n\nWhere $\\beta$, $\\nu(\\Delta)$, and $']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Users can go to the QuecPython website or join the QuecPython community for troubleshooting and support. Specifically, they can visit the online documentation, join the QuecPython community forum, or contact their online support via the provided QQ group.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ["Fuller's Ranch"]
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['Infall rate is 2-5 times smaller and gas density is 2-5 times smaller in the region close to the black hole in the magnetized model compared to non-magnetized accretion.']
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['A media application may determine the context of an event by analyzing the words spoken or actions taken during the event, and then cross-referencing this information with a database to identify key details such as who is involved, what is being discussed, and the setting or circumstances. Speech recognition and optical character recognition technologies can be used']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Normalized least mean square (NLMS) algorithm']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["A solution \\( u \\) of \\( -\\Delta u = f(u) \\) in \\( \\mathbb{R}^N \\) is stable if\n\\[ \\int f'(u) \\psi^2 \\, dx \\leq \\int |\\nabla \\psi|^2 \\, dx"]
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The main advantage of a horizontal business model for mobile devices is one of flexibility; as costs drop and the market expands, it becomes increasingly necessary for vendors to offer a wide range of products based on different System-on-Chip (SoC) solutions to cater to the diverse needs of the market.']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Sustained viral vector gene delivery using core-shell fibers: Efficacy and mechanism of action (2010)']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Jacob C. Landau']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["Toby Schindelbeck observes that the police act like they aren't paid enough to enforce the law effectively."]
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Max used: 64909.52 MB, Min used: 35195.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['FC Banants']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The relationships between catch per set and fishing behavior variables differ for different measures of CPUE. Specifically, unstandardized CPUE (individuals per set) shows a positive relationship with the number of hooks and a negative relationship with the number of sets for surface longlines, while standardized CPUE (individuals per 1']
+max_capacity_prompts [288, 576]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Affected fetuses develop severe anemia as early as the first trimester, leading to hydrops fetalis, which is characterized by fluid accumulation in the fetus. This can result in miscarriage, stillbirth, or death shortly after birth. Women who are carriers of alpha thalassemia may experience anemia and']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Normalized least mean square (NLMS) algorithm']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4044 GB
+
+batch_outputs is  ["Romance novels and women's fiction"]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Accounting for path preference leads to a more steady decrease in belief entropy, allowing the robot to leverage human path information and avoid becoming overconfident in incorrect goals, thus improving its ability to reach the correct goal within the allotted time.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['October 2001']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Fruit consumption may provide a protective effect against mercury exposure in Amazonian riparians.']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Del Bigtree and his team at ICANcompiled the 88-page letter to the HHS regarding vaccine safety.']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The main methodology used in the research is an unsupervised method based on the information bottleneck to develop a compositional communication framework that captures both referential and task-related information.']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['C$_2$H']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['No']
+max_capacity_prompts [288, 576]
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['1964']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['an open-shell π-diradical state (5OS) and a closed-shell state (5).']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The scoring engine generates a stream of content for the channel by first querying new content items based on the channel category and other attributes, then scoring each candidate content item by comparing it to a model generated from user behavior, and finally ordering the content items based on their scores.']
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['Smartphones are more compact and power-constrained. Tablet SoCs have a higher power budget and are less constrained in terms of size and thermal management. Additionally, smartphones are primarily designed for connectivity via cellular networks, whereas tablets often rely on Wi-Fi and Bluetooth for connectivity, with some models supporting cellular networks.']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['For small amplitudes, the relationship is linear, and for larger amplitudes, it follows a square root relationship.']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4043 GB
+
+batch_outputs is  ['2013–14']
+Max used: 64909.52 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The main focus of the research paper is to determine the nuclear liquid-gas transition at low temperatures and finite baryon chemical potential using the dual formulation of lattice QCD at strong coupling.']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ["The function \\(\\beta(r)\\) is determined by solving the differential equation derived from the simplified form of the vacuum Einstein equations applied to a test volume element in free fall. Specifically, it is found by integrating the equation \\(\\beta(r)\\beta'(r) = -\\frac{2GM}{r^2"]
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['URPC2017, URPC2018, URPC2019, URPC2020_Zhejiang, URPC2020_Fujian, URPC2020_Hainan']
+Max used: 64833.52 MB, Min used: 39695.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The sticking points include how much spending to cut and disagreements over policy riders such as regulating greenhouse gas emissions and abortion.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['γ_h']
+Max used: 60941.52 MB, Min used: 39705.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['dendritic spines contain a complex network of proteins that link extracellular signals with the actin cytoskeleton, allowing them to control dendritic spine morphology and number.']
+Max used: 60959.52 MB, Min used: 35047.53 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['70-75 metres']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['none of the vaccines were trialed against genuine placebo; they were compared with other toxic products.']
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The research opportunity involves studying the effects of Brazilian Jiu-Jitsu and psychotherapy on individuals with autism, focusing on developing subjective awareness of others. Participants would need to be between 7 and 21 years old and diagnosed with Autism Spectrum Disorder. They would need to engage in Brazilian Jiu-Jitsu training for six']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+Max used: 64833.52 MB, Min used: 33955.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['The Director of Town and Country Planning is responsible for carrying out the functions assigned under the act.']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5703 GB, allocated=29.4045 GB
+
+batch_outputs is  ['William Rokeby']
+Max used: 60941.52 MB, Min used: 35329.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['Margaret Way was born in Brisbane and died in Cleveland, Queensland.']
+Max used: 46597.51 MB, Min used: 31399.52 MB
+max_capacity_prompts [288, 576]
+max_capacity_prompts [288, 576]
+Memory freed:        reserved=29.5723 GB, allocated=29.4044 GB
+
+batch_outputs is  ['The framework captures the reduced-order dynamics by employing a propagator in the latent space, which is a continuous-time dynamical system defined by a set of ordinary differential equations in a complex-valued latent space. This approach allows for the identification of interpretable latent dynamics that can reveal the underlying time scales of the system. Additionally']
+Max used: 64985.52 MB, Min used: 34105.52 MB
+Memory freed:        reserved=29.5723 GB, allocated=29.4045 GB
+
+batch_outputs is  ['L = 8, L = 14, L = 6, L = 8, L = 14']
+Max used: 46597.51 MB, Min used: 31399.52 MB
 sum(sum_gathered) 0
 mean compress 0.0
-all sec/token: 0.014429270935385194, time 252.8008267879486, total tokens 17520, total prompts 150
+all sec/token: 0.009180372056377731, time 161.34503889083862, total tokens 17575, total prompts 150
