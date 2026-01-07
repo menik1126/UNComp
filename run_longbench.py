@@ -1294,7 +1294,7 @@ if __name__ == "__main__":
         device_map={"": accelerator.process_index},
         use_cache=args.use_cache,
         attn_implementation=args.attn_implementation,
-        token="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",
+        token="",
     )
     accelerator.wait_for_everyone()
     tokenizer.padding_side = "left"
