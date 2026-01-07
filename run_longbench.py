@@ -585,11 +585,16 @@ class func_utils:
             manager.max_token = 1800
             manager.num_attention_heads = 32
             manager.num_hidden_layers = 22
-        elif "qwen2" in model_path:
+        elif "qwen2" and "7b" in model_path:
             logger.info("qwen2 detected")
             manager.max_token = 8192
             manager.num_attention_heads = 28
             manager.num_hidden_layers = 28
+        elif "qwen2" and "3b" in model_path:
+            logger.info("qwen2 3b detected")
+            manager.max_token = 8192
+            manager.num_attention_heads = 16
+            manager.num_hidden_layers = 36
         else:
             manager.chai_layers = manager.chai_layers_llama2
             manager.max_token = 4096
@@ -842,7 +847,7 @@ class func_utils:
                     filename = f"./search/TinyLlama/2_groups/query/svd32/head_type_search_layer" + str(i) + ".csv"
                 elif "qwen2" in manager.model_path:
                     logger.info("qwen2")
-                    filename = f"./search/Qwen2/2_groups/query/svd32/head_type_search_layer" + str(i) + ".csv"
+                    filename = f"./search/qwen2/svd32/head_type_search_layer" + str(i) + ".csv"
                     
                 elif "variance" in manager.method_name:
                     filename = "./search/512/llama2-chat/variance/head_type_search_layer" + str(i) + ".csv"
@@ -1258,7 +1263,7 @@ if __name__ == "__main__":
         device_map={"": accelerator.process_index},
         use_cache=args.use_cache,
         attn_implementation=args.attn_implementation,
-        token="",
+        token="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",
     )
     accelerator.wait_for_everyone()
     tokenizer.padding_side = "left"
@@ -1266,7 +1271,7 @@ if __name__ == "__main__":
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token_id = tokenizer.eos_token_id
     
-    if "llama" in model_path.lower() or "mistral" in model_path.lower():
+    if "llama" in model_path.lower() or "mistral" in model_path.lower() or "qwen2" in model_path.lower():
         from uncomp.monkeypatch import replace_llama,replace_mistral,replace_qwen
         replace_llama(args.method.lower(),manager)
         replace_qwen(args.method.lower(),manager)

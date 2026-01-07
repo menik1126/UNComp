@@ -7,6 +7,7 @@ from uncomp.qwen_model import QwenDecoderLayer_forward,qwen_attn_forward_Uncomp
 
 from uncomp.llama_model import prepare_inputs_for_generation_llama
 from uncomp.mistral_model import prepare_inputs_for_generation_mistral
+from uncomp.qwen_model import prepare_inputs_for_generation_qwen
 from functools import wraps, partialmethod
 
 from uncomp.cache_revise import from_legacy_cache,get_seq_length
@@ -40,11 +41,11 @@ def replace_qwen(method,manager):
         print("Using fullkv!")
         pass
     else:
-        transformers.models.qwen.modeling_qwen2.Qwen2Attention.forward = partialmethod(
-                    QwenDecoderLayer_forward, manager = manager,
-                ) 
-        transformers.models.qwen.modeling_qwen2.Qwen2DecoderLayer.forward = partialmethod(
+        transformers.models.qwen2.modeling_qwen2.Qwen2Attention.forward = partialmethod(
                     qwen_attn_forward_Uncomp, manager = manager,
+                ) 
+        transformers.models.qwen2.modeling_qwen2.Qwen2DecoderLayer.forward = partialmethod(
+                    QwenDecoderLayer_forward, manager = manager,
         )
         
         if manager.method_name in manager.head_granularity and manager.method_name not in manager.delet_head_set:
@@ -54,7 +55,7 @@ def replace_qwen(method,manager):
             transformers.cache_utils.DynamicCache.get_seq_length = get_seq_length    
         
     if method not in ["fullkv"]:
-        transformers.models.qwen.modeling_qwen.QwenForCausalLM.prepare_inputs_for_generation = prepare_inputs_for_generation_llama
+        transformers.models.qwen2.modeling_qwen2.Qwen2ForCausalLM.prepare_inputs_for_generation = prepare_inputs_for_generation_qwen
 
 def replace_mistral(method,manager):
     print("Using method: ",method)

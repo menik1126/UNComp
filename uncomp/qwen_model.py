@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from typing import List, Optional, Tuple, Union, Dict, Any
 import warnings
 from transformers.cache_utils import Cache, DynamicCache
-from transformers.models.llama.modeling_llama import (
+from transformers.models.qwen2.modeling_qwen2 import (
     apply_rotary_pos_emb,
     repeat_kv,
 )
@@ -50,7 +50,7 @@ def QwenDecoderLayer_forward(
     manager=None,
 ):
     num_hidden_layers = manager.num_hidden_layers
-
+    # assert 1==0
     residual = hidden_states
     hidden_states = self.input_layernorm(hidden_states)
 
@@ -63,7 +63,7 @@ def QwenDecoderLayer_forward(
         use_cache=use_cache,
         cache_position=cache_position,
     )
-
+    # logger.info(f"self.self_attn.layer_idx: {self.self_attn.layer_idx}")
     if self.self_attn.kv_cluster.manager.last_attn is not None and self.self_attn.revise:
         indices = self.self_attn.select_indices
         residual = residual.gather(
@@ -106,6 +106,7 @@ def qwen_attn_forward_Uncomp(
                 "Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`"
             )
         self.revise = False
+        # assert 1==0
         num_hidden_layers = manager.num_hidden_layers
         num_attention_heads = manager.num_attention_heads
         if manager.method_name in manager.hidden_delete_stage_and_ours and hidden_states.shape[-2] != 1:
@@ -130,9 +131,23 @@ def qwen_attn_forward_Uncomp(
                         # logger.info("logger info: using 28 layers stage_label")
                         stage_label = [0,0, 
                                        1,1,1,1,1,1, 
-                                       2,2,2,2,2,2,2,2, 
+                                       2,2,2,2,2,2,2,2,2,2,
                                        3,3,3,3,3,3,
                                        4,4,4,4
+                                       ] 
+                        attn_sum = manager.last_attn
+                        min_len = 1024
+                        allowance = (manager.max_token-min_len)//5
+                        keep_seq_len = min_len+allowance*(5-stage_label[self.layer_idx]) 
+                    elif num_hidden_layers == 36:
+                        stage_label = [0,                           
+                                       1,1,                         
+                                       2,2,2,2,2, 2,2,2,  
+                                       3,3,3,3,3, 3,3,3,            
+                                       4,4,4,4,4, 4,4,4,            
+                                       5,5,5,5,                     
+                                       6,6,                         
+                                       7,7,7, 
                                        ] 
                         attn_sum = manager.last_attn
                         min_len = 1024
@@ -422,7 +437,7 @@ def qwen_attn_forward_Uncomp(
                     print("difference: ", difference)
                     print("similarity1_max: ", similarity1_max)
                     
-                    assert 1==0
+                    # assert 1==0
                     
                     if num_hidden_layers == 40:
                         stage_label = [0,                           
@@ -586,7 +601,7 @@ def qwen_attn_forward_Uncomp(
         query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin, position_ids)
         key_states = repeat_kv(key_states, self.num_key_value_groups)
         value_states = repeat_kv(value_states, self.num_key_value_groups)
-        
+        # print("1")
         if past_key_value is not None:
             # logger.info(f"position_ids is: {position_ids}")
             cache_kwargs = {"sin": sin, "cos": cos}
@@ -604,7 +619,10 @@ def qwen_attn_forward_Uncomp(
                     key_states, value_states = self.kv_cluster.update_all_past_key_values(1, past_key_value, key_states, value_states, self.layer_idx, None)
                 else:          
                     key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
-
+        # print("2")
+        # print("query_states shape: ", query_states.shape)
+        # print("key_states shape: ", key_states.shape)
+        
         if manager.method_name in manager.head_granularity and raw_key_states_shape != kv_seq_len :
             if not isinstance(key_states, list) and manager.method_name not in manager.delet_head_set:
                 raise ValueError("key_states is not a list")
@@ -863,21 +881,26 @@ def qwen_attn_forward_Uncomp(
      
         
             attn_output = torch.matmul(attn_weights, value_states)
-
+        # print("3")
+        # assert 1==0
         if raw_key_states_shape == kv_seq_len and manager.method_name in manager.hidden_delete_stage_and_ours:
             manager.last_attn = attn_weights.sum(0).sum(0)[-8:].sum(0)
 
-        if attn_weights.size() != (bsz, self.num_heads, q_len, kv_seq_len):
-            raise ValueError(
-                f"Attention weights should be of size {(bsz, self.num_heads, q_len, kv_seq_len)}, but is"
-                f" {attn_weights.size()}"
-            )
+        # if attn_weights.size() != (bsz, self.num_heads, q_len, kv_seq_len):
+        #     raise ValueError(
+        #         f"Attention weights should be of size {(bsz, self.num_heads, q_len, kv_seq_len)}, but is"
+        #         f" {attn_weights.size()}"
+        #     )
         if attn_output.size() != (bsz, self.num_heads, q_len, self.head_dim):
             raise ValueError(
                 f"`attn_output` should be of size {(bsz, self.num_heads, q_len, self.head_dim)}, but is"
                 f" {attn_output.size()}"
             )
-
+        # print("4")
+        # if self.layer_idx == 0:
+        #     print("0")
+        # elif self.layer_idx == 1:
+        #     assert 1==0
         attn_output = attn_output.transpose(1, 2).contiguous()
         attn_output = attn_output.reshape(bsz, q_len, self.hidden_size)
 
@@ -888,7 +911,7 @@ def qwen_attn_forward_Uncomp(
 
         return attn_output, attn_weights, past_key_value
 
-def prepare_inputs_for_generation_llama(
+def prepare_inputs_for_generation_qwen(
     self, input_ids, past_key_values=None, attention_mask=None, inputs_embeds=None, **kwargs
 ):
     # logger.debug(f"attention_mask.shape: {attention_mask.shape}")
@@ -920,6 +943,8 @@ def prepare_inputs_for_generation_llama(
         # 3 - Otherwise (past_length >= input_ids.shape[1]), let's assume input_ids only has unprocessed tokens.
 
         # If we are about to go beyond the maximum cache length, we need to crop the input attention mask.
+        # logger.info(f"cache_length: {cache_length}, input_ids.shape[1]: {input_ids.shape[1]}, max_cache_length: {max_cache_length}")
+        # logger.info(f"self.model.layers[0].self_attn.kv_seq_len: {self.model.layers[0].self_attn.kv_seq_len}")
         if (
             max_cache_length is not None
             and attention_mask is not None
@@ -935,13 +960,15 @@ def prepare_inputs_for_generation_llama(
         position_ids.masked_fill_(attention_mask == 0, 1)
         if past_key_values:
             position_ids = position_ids[:, -input_ids.shape[1] :]
-    # logger.debug(f"position_ids: {position_ids}")
+    logger.debug(f"position_ids: {position_ids}")
     # if `inputs_embeds` are passed, we only want to use them in the 1st generation step
     if inputs_embeds is not None and past_key_values is None:
         model_inputs = {"inputs_embeds": inputs_embeds}
     else:
         model_inputs = {"input_ids": input_ids}
-
+    
+    if input_ids.shape[1] == 1:
+        attention_mask = None
     model_inputs.update(
         {
             "position_ids": position_ids,
